@@ -1,0 +1,82 @@
+# Balaji Rajaram — Full Profile (llms-full.txt)
+# Canonical source: https://balajirajaram.wikiseo.in/
+# LinkedIn: https://www.linkedin.com/in/balajir-demandgeneration/
+
+## Who is Balaji Rajaram
+
+Balaji Rajaram is a results-driven B2B Technology Marketing professional based in Bangalore, India, with 12+ years of experience across integrated marketing, demand generation, digital growth, content strategy, brand positioning, and AI-powered marketing initiatives for IT Services and technology organizations. He partners with business leaders to build go-to-market strategies, run multi-channel campaigns, build thought leadership, and accelerate marketing-driven pipeline growth. He translates complex technology solutions into customer-focused messaging and uses Generative AI to improve marketing productivity.
+
+## Professional Summary
+
+B2B marketing leadership combined with hands-on digital, SEO, and AI-search expertise. Strong expertise across integrated marketing, solution marketing, digital campaigns, website transformation, marketing analytics, AI-assisted content workflows, SEO, GEO/AEO optimization, executive communications, and cross-functional stakeholder management.
+
+## Core Expertise Areas
+
+1. Technical SEO — technical SEO strategy and audits, crawlability, indexation, site architecture, internal linking, XML sitemaps, robots.txt, canonicalization, on-page SEO, structured data/schema, Core Web Vitals, migrations, performance optimization.
+2. SEO Strategy & Analytics — keyword and search intent analysis, SEO strategy and execution, competitor analysis, content optimization, Google Search Console, GA4, GTM, SEMrush, Ahrefs, Screaming Frog, PageSpeed Insights, Lighthouse.
+3. AI Search — AI-driven search, Generative Engine Optimization (GEO), Answer Engine Optimization (AEO), LLM discoverability, AI-assisted SEO workflows, Generative AI adoption, prompt engineering.
+4. Demand Generation — integrated marketing, demand generation, digital campaigns, website growth, customer acquisition, sales enablement, conversion-focused digital experiences.
+5. Content & Messaging — thought leadership, solution narratives, blogs, landing pages, case studies, editorial calendars, executive presentations, technology messaging.
+6. Leadership & Collaboration — SEO team leadership, mentoring, work allocation, quality assurance, cross-functional collaboration, developer/content team coordination, reporting, stakeholder communication.
+
+## Work Experience (reverse chronological)
+
+### Senior Marketing Executive — Chimera Technologies Pvt Ltd, Bangalore (June 2020 – July 2026)
+Led integrated marketing initiatives supporting AI, Digital Transformation, Low-Code/No-Code, Cloud, and Enterprise Technology solutions.
+- Led website transformation and SEO initiatives delivering 3X organic traffic growth and 2X inbound lead growth.
+- Increased marketing-attributed revenue contribution from 5% to 30%.
+- Developed SEO and content strategies across Generative AI, Digital Transformation, Low-Code/No-Code, and Cloud.
+- Grew LinkedIn community from 300 to 31,000+ followers.
+- Developed and optimized solution pages, landing pages, case studies, blogs based on search intent and conversion objectives.
+- Mentored junior SEO professionals; coordinated content writers, developers, designers, and agencies.
+- Used ChatGPT and Claude AI to accelerate research, content creation, campaign messaging, and executive presentations.
+- Applied prompt engineering across blogs, landing pages, case studies, solution narratives, and website content.
+- Optimized digital assets for SEO, GEO, AEO, and LLM discoverability.
+- Monitored performance via GA4, Google Search Console, SEMrush, CRM platforms.
+- Received "Champion of Chimera" (2023–24) and "Extra Mile Award" (2023).
+
+### SEO Specialist — Attiitude.com Fashion Pvt Ltd (December 2017 – June 2020)
+Managed SEO and organic growth for a large e-commerce website.
+- Increased organic traffic by 50%.
+- Increased SEO-driven revenue contribution from 10% to 40% of monthly sales.
+- Optimized product discovery and website structure with development, merchandising, and content teams.
+- Conducted keyword research, competitor analysis, content optimization, SEO performance monitoring.
+
+### SEO Analyst — Jain Technosoft (June 2015 – December 2017)
+Managed SEO strategy and execution across 15+ domestic and international client accounts (Technology, Healthcare, Education, Professional Services).
+- Managed technical and on-page SEO across multiple client websites.
+- Delivered first-page rankings for 50+ competitive keywords.
+- Led and mentored a team of three SEO professionals.
+
+### SEO Executive — Zinavo Technologies (July 2013 – May 2015)
+- Achieved first-page Google rankings for 150+ keywords.
+- Improved local search visibility via Google Business Profile optimization.
+
+## Achievements Summary
+
+- 3X organic traffic growth through website transformation and SEO initiatives.
+- 2X inbound lead growth through digital acquisition and conversion-focused initiatives.
+- 5% → 30% marketing-attributed revenue contribution at Chimera Technologies.
+- 300 → 31,000+ LinkedIn community growth.
+
+## Focus Areas
+
+- Website Transformation & Organic Growth
+- GEO & AEO (optimizing digital assets for Generative Engine Optimization, Answer Engine Optimization, LLM discoverability, and AI-generated citations)
+- AI-Assisted Marketing (ChatGPT, Claude AI, Gemini, prompt engineering)
+- B2B Demand Generation (websites, LinkedIn, email, SEO, content, sales enablement)
+
+## Tools & Technologies
+
+Google Search Console, Google Analytics 4, Google Tag Manager, SEMrush, Ahrefs, Screaming Frog, PageSpeed Insights, Lighthouse, WordPress, HTML, CSS, ChatGPT, Claude AI, Gemini, Generative AI, GEO, AEO, LLM Discoverability, Prompt Engineering.
+
+## Education
+
+Bachelor of Technology (B.Tech), Information Technology — V.K.K. Vijayan Engineering College, Chennai (2007–2010).
+
+## Contact
+
+- Email: balaji.achu.th@gmail.com
+- Phone: +91 9738385311
+- LinkedIn: https://www.linkedin.com/in/balajir-demandgeneration/
+- Portfolio: https://balajirajaram.wikiseo.in/
