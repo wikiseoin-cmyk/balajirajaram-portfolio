@@ -1,52 +1,515 @@
-------------------------------------------------
-BALAJI Rajaram
-Senior B2B Marketing & Digital Growth Leader
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Balaji Rajaram - B2B Technology Marketing, Digital Growth, Demand Generation, SEO, GEO and AEO professional.">
+  <meta name="keywords" content="B2B Marketing, Technology Marketing, Demand Generation, SEO, Technical SEO, GEO, AEO, Digital Growth, AI Marketing">
+  <meta name="author" content="Balaji Rajaram">
+  <meta property="og:title" content="Balaji Rajaram | B2B Technology Marketing & Digital Growth">
+  <meta property="og:description" content="B2B Technology Marketing, Demand Generation, SEO, GEO, AEO and AI-driven marketing professional.">
+  <meta property="og:type" content="website">
+  <title>Balaji Rajaram | B2B Technology Marketing & Digital Growth</title>
 
-SEO • GEO • AEO • Demand Generation • AI Marketing
+  <style>
+    :root {
+      --bg: #f7f8fc;
+      --surface: #ffffff;
+      --text: #172033;
+      --muted: #5f6b7a;
+      --accent: #3157d5;
+      --accent-dark: #203ea5;
+      --border: #e5e8ef;
+      --dark: #101827;
+      --max: 1120px;
+      --radius: 18px;
+    }
 
-[ Download CV ]   [ LinkedIn ]   [ Contact ]
-------------------------------------------------
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    a { color: inherit; text-decoration: none; }
+    .container { width: min(92%, var(--max)); margin: auto; }
 
-ABOUT ME
+    header {
+      background: rgba(255,255,255,.94);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(10px);
+    }
+    nav {
+      min-height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+    .logo { font-size: 1.15rem; font-weight: 800; letter-spacing: -.02em; }
+    .nav-links { display: flex; gap: 24px; list-style: none; font-size: .92rem; color: var(--muted); }
+    .nav-links a:hover { color: var(--accent); }
 
-6+ years B2B IT Services Marketing
-2+ years Ecommerce
-5 years Marketing Agency
+    .hero {
+      background: linear-gradient(135deg, #eef2ff 0%, #ffffff 58%, #f4f7ff 100%);
+      padding: 100px 0 90px;
+      border-bottom: 1px solid var(--border);
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.5fr .8fr;
+      gap: 60px;
+      align-items: center;
+    }
+    .eyebrow {
+      color: var(--accent);
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .11em;
+      font-size: .78rem;
+      margin-bottom: 14px;
+    }
+    h1 {
+      font-size: clamp(2.7rem, 6vw, 5rem);
+      line-height: 1.02;
+      letter-spacing: -.055em;
+      margin-bottom: 22px;
+    }
+    .hero h2 {
+      font-size: clamp(1.2rem, 2vw, 1.55rem);
+      font-weight: 650;
+      color: #344158;
+      margin-bottom: 18px;
+    }
+    .hero p { max-width: 760px; color: var(--muted); font-size: 1.08rem; }
+    .buttons { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 20px;
+      border-radius: 10px;
+      font-weight: 750;
+      border: 1px solid var(--border);
+      background: var(--surface);
+    }
+    .btn-primary { background: var(--accent); color: white; border-color: var(--accent); }
+    .btn-primary:hover { background: var(--accent-dark); }
+    .btn:hover { transform: translateY(-1px); }
 
-------------------------------------------------
+    .hero-card {
+      background: var(--dark);
+      color: white;
+      border-radius: var(--radius);
+      padding: 30px;
+      box-shadow: 0 22px 55px rgba(16,24,39,.14);
+    }
+    .hero-card .big { font-size: 3.1rem; font-weight: 850; line-height: 1; }
+    .hero-card p { color: #b9c3d4; margin-top: 8px; }
+    .hero-card .item { padding: 20px 0; border-bottom: 1px solid #293346; }
+    .hero-card .item:last-child { border-bottom: 0; }
 
-EXPERTISE
+    section { padding: 85px 0; }
+    section:nth-child(even) { background: var(--surface); }
+    .section-title { font-size: 2rem; letter-spacing: -.035em; margin-bottom: 12px; }
+    .section-intro { color: var(--muted); max-width: 760px; margin-bottom: 38px; }
 
-SEO       Demand Generation      GEO/AEO
-Content   Digital Growth         AI Marketing
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 45px;
+    }
+    .about p { color: var(--muted); margin-bottom: 15px; }
 
-------------------------------------------------
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+    .skill-card, .experience-card, .achievement, .project-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 26px;
+    }
+    .skill-card h3 { margin-bottom: 12px; font-size: 1.05rem; }
+    .skill-card p { color: var(--muted); font-size: .94rem; }
 
-EXPERIENCE
+    .experience { position: relative; }
+    .experience-card { margin-bottom: 22px; }
+    .experience-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      margin-bottom: 15px;
+    }
+    .experience-head h3 { font-size: 1.2rem; }
+    .company { color: var(--accent); font-weight: 750; }
+    .date { color: var(--muted); white-space: nowrap; font-size: .9rem; }
+    ul { padding-left: 20px; }
+    li { margin: 8px 0; color: #4d5869; }
 
-Chimera Technologies
-Senior Marketing Executive
-2020 – 2026
+    .achievement-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 18px;
+    }
+    .achievement .number {
+      display: block;
+      font-size: 2.2rem;
+      font-weight: 850;
+      color: var(--accent);
+      line-height: 1.1;
+      margin-bottom: 8px;
+    }
+    .achievement p { color: var(--muted); font-size: .9rem; }
 
-...
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+    .project-card h3 { margin-bottom: 9px; }
+    .project-card p { color: var(--muted); }
 
-------------------------------------------------
+    .tools {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .tag {
+      background: #eef2ff;
+      color: #2947b7;
+      padding: 8px 13px;
+      border-radius: 999px;
+      font-size: .88rem;
+      font-weight: 650;
+    }
 
-SELECTED ACHIEVEMENTS
+    .contact {
+      background: var(--dark);
+      color: white;
+      text-align: center;
+    }
+    .contact .section-intro { margin-left: auto; margin-right: auto; color: #b9c3d4; }
+    .contact-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .contact .btn { background: white; color: var(--dark); border: none; }
+    footer {
+      background: #0b111d;
+      color: #8f9bad;
+      text-align: center;
+      padding: 22px;
+      font-size: .85rem;
+    }
 
-3X Organic Traffic
-2X Inbound Leads
-30K+ LinkedIn Community
-...
+    @media (max-width: 850px) {
+      .hero-grid, .about, .projects { grid-template-columns: 1fr; }
+      .skills-grid { grid-template-columns: repeat(2, 1fr); }
+      .achievement-grid { grid-template-columns: repeat(2, 1fr); }
+      .nav-links { display: none; }
+    }
+    @media (max-width: 560px) {
+      .hero { padding: 70px 0; }
+      section { padding: 60px 0; }
+      .skills-grid, .achievement-grid { grid-template-columns: 1fr; }
+      .experience-head { flex-direction: column; gap: 5px; }
+      h1 { font-size: 3rem; }
+    }
+  </style>
+</head>
 
-------------------------------------------------
+<body>
+<header>
+  <div class="container">
+    <nav>
+      <a class="logo" href="#home">BALAJI RAJARAM</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#expertise">Expertise</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-AI SEARCH & GEO
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div>
+        <div class="eyebrow">B2B Technology Marketing</div>
+        <h1>Balaji Rajaram</h1>
+        <h2>B2B Technology Marketing | Digital Growth | Demand Generation | SEO | GEO & AEO | AI-Driven Marketing</h2>
+        <p>
+          Results-driven B2B Technology Marketing professional with 12+ years of experience
+          driving integrated marketing, demand generation, digital growth, content strategy,
+          brand positioning, and AI-powered marketing initiatives for IT Services and technology organizations.
+        </p>
+        <div class="buttons">
+          <a class="btn btn-primary" href="resume.pdf" download>Download CV</a>
+          <a class="btn" href="https://linkedin.com/in/balajir-demandgeneration" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn" href="mailto:balaji.achu.th@gmail.com">Contact Me</a>
+        </div>
+      </div>
 
-SEO | AEO | GEO | AI Overviews | LLM Discovery
+      <div class="hero-card">
+        <div class="item">
+          <span class="big">12+</span>
+          <p>Years of marketing & SEO experience</p>
+        </div>
+        <div class="item">
+          <span class="big">3X</span>
+          <p>Organic traffic growth at Chimera Technologies</p>
+        </div>
+        <div class="item">
+          <span class="big">31K+</span>
+          <p>LinkedIn community grown from 300 followers</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-------------------------------------------------
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">Professional Summary</h2>
+      <p class="section-intro">B2B marketing leadership combined with hands-on digital, SEO and AI-search expertise.</p>
+      <div class="about">
+        <div>
+          <p>Results-driven B2B Technology Marketing professional with 12+ years of experience driving integrated marketing, demand generation, digital growth, content strategy, brand positioning, and AI-powered marketing initiatives for IT Services and technology organizations.</p>
+          <p>Proven success in partnering with business leaders to develop go-to-market strategies, execute multi-channel marketing campaigns, build thought leadership, and accelerate marketing-driven pipeline growth.</p>
+        </div>
+        <div>
+          <p>Experienced in translating complex technology solutions into compelling customer-focused messaging while leveraging Generative AI to improve marketing productivity and content development.</p>
+          <p>Strong expertise across integrated marketing, solution marketing, digital campaigns, website transformation, marketing analytics, AI-assisted content workflows, SEO, GEO/AEO optimization, executive communications, and cross-functional stakeholder management.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-CONTACT
+  <section id="expertise">
+    <div class="container">
+      <h2 class="section-title">Core Expertise</h2>
+      <p class="section-intro">A blend of marketing strategy, organic growth, AI search and technical execution.</p>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Technical SEO</h3>
+          <p>Technical SEO strategy & audits, crawlability, indexation, site architecture, internal linking, XML sitemaps, robots.txt, canonicalization, on-page SEO, structured data/schema, Core Web Vitals, migrations and performance optimization.</p>
+        </div>
+        <div class="skill-card">
+          <h3>SEO Strategy & Analytics</h3>
+          <p>Keyword and search intent analysis, SEO strategy and execution, competitor analysis, content optimization, Google Search Console, GA4, GTM, SEMrush, Ahrefs, Screaming Frog, PageSpeed Insights and Lighthouse.</p>
+        </div>
+        <div class="skill-card">
+          <h3>AI Search</h3>
+          <p>AI-driven search, Generative Engine Optimization (GEO), Answer Engine Optimization (AEO), LLM discoverability, AI-assisted SEO workflows, Generative AI adoption and prompt engineering.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Demand Generation</h3>
+          <p>Integrated marketing, demand generation, digital campaigns, website growth, customer acquisition, sales enablement and conversion-focused digital experiences.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Content & Messaging</h3>
+          <p>Thought leadership, solution narratives, blogs, landing pages, case studies, editorial calendars, executive presentations and customer-focused technology messaging.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Leadership & Collaboration</h3>
+          <p>SEO team leadership, mentoring, work allocation, quality assurance, cross-functional collaboration, developer/content team coordination, reporting and stakeholder communication.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-[ LinkedIn ] [ Email ] [ Download CV ]
+  <section id="experience">
+    <div class="container">
+      <h2 class="section-title">Professional Experience</h2>
+      <p class="section-intro">Marketing, digital growth and SEO experience across technology, ecommerce and agency environments.</p>
+
+      <div class="experience-card">
+        <div class="experience-head">
+          <div>
+            <h3>Senior Marketing Executive</h3>
+            <div class="company">Chimera Technologies Pvt Ltd | Bangalore</div>
+          </div>
+          <div class="date">June 2020 – July 2026</div>
+        </div>
+        <p>Led integrated marketing initiatives supporting AI, Digital Transformation, Low-Code/No-Code, Cloud, and Enterprise Technology solutions. Partnered with business leaders, sales teams, and technical stakeholders to strengthen brand positioning, generate qualified pipeline, and improve digital customer engagement.</p>
+        <ul>
+          <li>Led website transformation and SEO initiatives that delivered 3X organic traffic growth and 2X inbound lead growth.</li>
+          <li>Increased marketing-attributed revenue contribution from 5% to 30% through integrated digital marketing, SEO, content, website optimization, and demand generation initiatives.</li>
+          <li>Developed SEO and content strategies across Generative AI, Digital Transformation, Low-Code/No-Code, and Cloud.</li>
+          <li>Grew LinkedIn community from 300 to 31,000+ followers, strengthening brand visibility, executive presence, and audience engagement.</li>
+          <li>Developed and optimized solution pages, landing pages, case studies, blogs, and website content based on search intent, user needs, SEO opportunities, and conversion objectives.</li>
+          <li>Mentored junior SEO professionals and coordinated execution across content writers, developers, designers, and external agencies.</li>
+          <li>Used ChatGPT and Claude AI to accelerate research, content creation, campaign messaging, and executive presentations.</li>
+          <li>Applied prompt engineering to create blogs, landing pages, case studies, solution narratives, campaign messaging, executive summaries, and website content.</li>
+          <li>Optimized digital assets for SEO, GEO, AEO, and LLM discoverability.</li>
+          <li>Monitored campaign performance using GA4, Google Search Console, SEMrush, CRM platforms, and website analytics.</li>
+          <li>Prepared marketing dashboards, KPI reports, and performance insights to optimize campaign effectiveness.</li>
+          <li>Received Champion of Chimera 2023–24 and Extra Mile Award 2023.</li>
+        </ul>
+      </div>
+
+      <div class="experience-card">
+        <div class="experience-head">
+          <div>
+            <h3>SEO Specialist</h3>
+            <div class="company">Attiitude.com Fashion Pvt Ltd</div>
+          </div>
+          <div class="date">December 2017 – June 2020</div>
+        </div>
+        <p>Managed SEO and organic growth for a large e-commerce website, working with development, merchandising, and content teams to improve search visibility, product discovery, and organic revenue.</p>
+        <ul>
+          <li>Increased organic traffic by 50% through technical SEO, content optimization, website improvements, and search visibility initiatives.</li>
+          <li>Increased SEO-driven revenue contribution from 10% to 40% of total monthly sales.</li>
+          <li>Optimized product discovery and website structure in collaboration with development, merchandising and content teams.</li>
+          <li>Conducted keyword research, competitor analysis, content optimization and SEO performance monitoring.</li>
+        </ul>
+      </div>
+
+      <div class="experience-card">
+        <div class="experience-head">
+          <div>
+            <h3>SEO Analyst</h3>
+            <div class="company">Jain Technosoft</div>
+          </div>
+          <div class="date">June 2015 – December 2017</div>
+        </div>
+        <p>Managed SEO strategy and execution across 15+ domestic and international client accounts spanning Technology, Healthcare, Education, and Professional Services.</p>
+        <ul>
+          <li>Managed technical and on-page SEO activities across multiple client websites.</li>
+          <li>Conducted keyword research, competitor analysis, SEO audits, content optimization, and performance analysis.</li>
+          <li>Delivered first-page rankings for 50+ competitive keywords across client campaigns.</li>
+          <li>Led and mentored a team of three SEO professionals.</li>
+          <li>Collaborated with content, development and design teams to implement SEO recommendations.</li>
+        </ul>
+      </div>
+
+      <div class="experience-card">
+        <div class="experience-head">
+          <div>
+            <h3>SEO Executive</h3>
+            <div class="company">Zinavo Technologies</div>
+          </div>
+          <div class="date">July 2013 – May 2015</div>
+        </div>
+        <ul>
+          <li>Executed SEO campaigns for multiple client websites while supporting website optimization and lead generation initiatives.</li>
+          <li>Achieved first-page Google rankings for over 150 keywords.</li>
+          <li>Improved local search visibility through Google Business Profile optimization.</li>
+          <li>Consistently exceeded SEO performance targets and received multiple performance awards.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <div class="container">
+      <h2 class="section-title">Selected Achievements</h2>
+      <p class="section-intro">Business and growth outcomes highlighted in my professional experience.</p>
+      <div class="achievement-grid">
+        <div class="achievement"><span class="number">3X</span><p>Organic traffic growth through website transformation and SEO initiatives.</p></div>
+        <div class="achievement"><span class="number">2X</span><p>Inbound lead growth through digital acquisition and conversion-focused initiatives.</p></div>
+        <div class="achievement"><span class="number">5% → 30%</span><p>Marketing-attributed revenue contribution at Chimera Technologies.</p></div>
+        <div class="achievement"><span class="number">300 → 31K+</span><p>LinkedIn community growth.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Marketing & SEO Focus Areas</h2>
+      <p class="section-intro">Areas where I combine strategy, execution, analytics and AI.</p>
+      <div class="projects">
+        <div class="project-card">
+          <h3>Website Transformation & Organic Growth</h3>
+          <p>Website transformation, SEO optimization, search-intent-led content, conversion-focused digital experiences and performance measurement.</p>
+        </div>
+        <div class="project-card">
+          <h3>GEO & AEO</h3>
+          <p>Optimizing digital assets for Generative Engine Optimization, Answer Engine Optimization, LLM discoverability and AI-generated citations.</p>
+        </div>
+        <div class="project-card">
+          <h3>AI-Assisted Marketing</h3>
+          <p>Using ChatGPT, Claude AI and prompt engineering to accelerate research, content production, campaign messaging and executive presentations.</p>
+        </div>
+        <div class="project-card">
+          <h3>B2B Demand Generation</h3>
+          <p>Integrated campaigns across websites, LinkedIn, email, SEO, content and sales enablement to support brand awareness, lead generation and pipeline growth.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tools">
+    <div class="container">
+      <h2 class="section-title">Tools & Technologies</h2>
+      <p class="section-intro">Platforms and technologies used across SEO, analytics, web and AI-assisted marketing workflows.</p>
+      <div class="tools">
+        <span class="tag">Google Search Console</span>
+        <span class="tag">Google Analytics 4</span>
+        <span class="tag">Google Tag Manager</span>
+        <span class="tag">SEMrush</span>
+        <span class="tag">Ahrefs</span>
+        <span class="tag">Screaming Frog</span>
+        <span class="tag">PageSpeed Insights</span>
+        <span class="tag">Lighthouse</span>
+        <span class="tag">WordPress</span>
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">ChatGPT</span>
+        <span class="tag">Claude AI</span>
+        <span class="tag">Gemini</span>
+        <span class="tag">Generative AI</span>
+        <span class="tag">GEO</span>
+        <span class="tag">AEO</span>
+        <span class="tag">LLM Discoverability</span>
+        <span class="tag">Prompt Engineering</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="experience-card">
+        <h3>Bachelor of Technology (B.Tech) – Information Technology</h3>
+        <p class="company">V.K.K. Vijayan Engineering College, Chennai</p>
+        <p class="date">2007 – 2010</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">Let's Connect</h2>
+      <p class="section-intro">Open to opportunities across B2B technology marketing, digital growth, demand generation, SEO, GEO/AEO and marketing leadership.</p>
+      <div class="contact-links">
+        <a class="btn" href="mailto:balaji.achu.th@gmail.com">Email Me</a>
+        <a class="btn" href="tel:+919738385311">Call</a>
+        <a class="btn" href="https://linkedin.com/in/balajir-demandgeneration" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://drive.google.com/file/d/1TePnci5rUi1hpma3gbHlAA66cP8XMYO6/view?usp=sharing" download>Download CV</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  © <span id="year"></span> Balaji Rajaram. All rights reserved.
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
