@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
 
     <!-- Primary SEO -->
-    <title>Chimera Technologies | Balaji Rajaram – B2B Marketing, SEO & Digital Growth</title>
+    <title>Chimera Technologies | Chimera Technologies Pvt Ltd | Chimera</title>
 
     <meta name="description"
-        content="Explore Balaji Rajaram's 6-year marketing journey at Chimera Technologies Pvt Ltd, covering B2B marketing, SEO, website growth, content, demand generation, social media, AEO, GEO and AI Search.">
+        content="Balaji Rajaram's 6-year marketing journey at Chimera Technologies Pvt Ltd, covering B2B marketing, SEO, website growth, content, demand generation, social media, AEO, GEO and AI Search.">
 
     <meta name="keywords"
         content="Chimera Technologies, Chimera Technologies Pvt Ltd, Chimera Technologies Bangalore, Chimera Technologies SEO, Chimera Technologies marketing, Balaji Rajaram Chimera Technologies, B2B technology marketing, SEO, AEO, GEO, AI Search">
@@ -16,6 +16,18 @@
     <meta name="author" content="Balaji Rajaram">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
+<!-- Geo tags (helps local/GEO relevance) -->
+<meta name="geo.region" content="IN-KA">
+<meta name="geo.placename" content="Bangalore">
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NCDFKP7YNR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NCDFKP7YNR');
+</script>
     <!-- Canonical -->
     <link rel="canonical" href="https://balajirajaram.wikiseo.in/chimera-technologies/">
 
