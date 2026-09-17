@@ -1,1 +1,1561 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Primary SEO -->
+    <title>Chimera Technologies | Balaji Rajaram – B2B Marketing, SEO & Digital Growth</title>
+
+    <meta name="description"
+        content="Explore Balaji Rajaram's 6-year marketing journey at Chimera Technologies Pvt Ltd, covering B2B marketing, SEO, website growth, content, demand generation, social media, AEO, GEO and AI Search.">
+
+    <meta name="keywords"
+        content="Chimera Technologies, Chimera Technologies Pvt Ltd, Chimera Technologies Bangalore, Chimera Technologies SEO, Chimera Technologies marketing, Balaji Rajaram Chimera Technologies, B2B technology marketing, SEO, AEO, GEO, AI Search">
+
+    <meta name="author" content="Balaji Rajaram">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://balajirajaram.wikiseo.in/chimera-technologies/">
+
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Theme -->
+    <meta name="theme-color" content="#0b2d57">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:title"
+        content="Chimera Technologies | Balaji Rajaram – B2B Marketing, SEO & Digital Growth">
+    <meta property="og:description"
+        content="A six-year portfolio of Balaji Rajaram's B2B marketing, SEO, website growth, content, demand generation, AEO, GEO and AI Search work at Chimera Technologies Pvt Ltd.">
+    <meta property="og:url"
+        content="https://balajirajaram.wikiseo.in/chimera-technologies/">
+    <meta property="og:site_name" content="Balaji Rajaram">
+    <meta property="og:image"
+        content="https://balajirajaram.wikiseo.in/images/chimera-technologies-og.jpg">
+    <meta property="og:image:alt"
+        content="Balaji Rajaram – 6 Years of B2B Marketing, SEO and Digital Growth at Chimera Technologies">
+    <meta property="og:locale" content="en_IN">
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title"
+        content="Chimera Technologies | Balaji Rajaram">
+    <meta name="twitter:description"
+        content="Six years of B2B marketing, SEO, website growth, demand generation, AEO, GEO and AI Search experience at Chimera Technologies Pvt Ltd.">
+    <meta name="twitter:image"
+        content="https://balajirajaram.wikiseo.in/images/chimera-technologies-og.jpg">
+
+    <!-- Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <style>
+
+        :root {
+            --navy: #0b2d57;
+            --blue: #1266d6;
+            --cyan: #00a8df;
+            --light-blue: #eef6ff;
+            --text: #172033;
+            --muted: #64748b;
+            --white: #ffffff;
+            --border: #dce7f3;
+            --bg: #f8fbff;
+            --dark: #071d38;
+            --shadow: 0 15px 40px rgba(11,45,87,0.08);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: "Inter", Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+        }
+
+        .container {
+            width: min(1120px, 92%);
+            margin: auto;
+        }
+
+        /* Navigation */
+
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: rgba(255,255,255,0.95);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .nav {
+            min-height: 72px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: 800;
+            color: var(--navy);
+            letter-spacing: -0.5px;
+        }
+
+        .logo span {
+            color: var(--blue);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 24px;
+            list-style: none;
+            font-size: 14px;
+            font-weight: 600;
+            color: #334155;
+        }
+
+        .nav-links a:hover {
+            color: var(--blue);
+        }
+
+        /* Hero */
+
+        .hero {
+            padding: 95px 0 80px;
+            background:
+                radial-gradient(circle at 80% 20%, rgba(0,168,223,0.12), transparent 30%),
+                linear-gradient(135deg, #f7fbff 0%, #ffffff 55%, #edf7ff 100%);
+        }
+
+        .eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 7px 14px;
+            border-radius: 30px;
+            background: #e6f3ff;
+            color: var(--blue);
+            font-size: 13px;
+            font-weight: 700;
+            margin-bottom: 22px;
+        }
+
+        .hero h1 {
+            max-width: 900px;
+            font-size: clamp(38px, 6vw, 68px);
+            line-height: 1.08;
+            letter-spacing: -2.5px;
+            color: var(--navy);
+            margin-bottom: 24px;
+        }
+
+        .hero h1 span {
+            color: var(--blue);
+        }
+
+        .hero-lead {
+            max-width: 800px;
+            font-size: 19px;
+            color: #475569;
+            margin-bottom: 30px;
+        }
+
+        .hero-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .meta {
+            padding: 10px 16px;
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--navy);
+        }
+
+        /* Stats */
+
+        .stats {
+            margin-top: -35px;
+            position: relative;
+            z-index: 5;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 16px;
+        }
+
+        .stat {
+            background: white;
+            padding: 25px;
+            border-radius: 14px;
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow);
+        }
+
+        .stat strong {
+            display: block;
+            font-size: 30px;
+            color: var(--blue);
+            line-height: 1.2;
+            margin-bottom: 7px;
+        }
+
+        .stat span {
+            font-size: 13px;
+            color: var(--muted);
+        }
+
+        /* Sections */
+
+        section {
+            padding: 90px 0;
+        }
+
+        .section-label {
+            color: var(--blue);
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: clamp(30px, 4vw, 44px);
+            color: var(--navy);
+            line-height: 1.2;
+            letter-spacing: -1px;
+            margin-bottom: 20px;
+        }
+
+        .section-intro {
+            max-width: 780px;
+            color: var(--muted);
+            margin-bottom: 40px;
+        }
+
+        /* Company */
+
+        .company-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: start;
+        }
+
+        .company-card {
+            background: white;
+            padding: 34px;
+            border-radius: 18px;
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow);
+        }
+
+        .company-card h3 {
+            color: var(--navy);
+            font-size: 23px;
+            margin-bottom: 15px;
+        }
+
+        .company-card p {
+            color: #526176;
+            margin-bottom: 16px;
+        }
+
+        .entity-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 9px;
+            margin-top: 20px;
+        }
+
+        .tag {
+            background: var(--light-blue);
+            color: var(--navy);
+            padding: 7px 11px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        /* Services */
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .service-card {
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 15px;
+            padding: 27px;
+            transition: transform .2s ease, box-shadow .2s ease;
+        }
+
+        .service-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow);
+        }
+
+        .service-number {
+            color: var(--cyan);
+            font-size: 13px;
+            font-weight: 800;
+            margin-bottom: 12px;
+        }
+
+        .service-card h3 {
+            font-size: 18px;
+            color: var(--navy);
+            margin-bottom: 10px;
+        }
+
+        .service-card p {
+            color: var(--muted);
+            font-size: 14px;
+        }
+
+        /* Industries */
+
+        .industry-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 15px;
+        }
+
+        .industry {
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 25px 15px;
+            text-align: center;
+            font-weight: 700;
+            color: var(--navy);
+        }
+
+        .industry small {
+            display: block;
+            margin-top: 7px;
+            color: var(--muted);
+            font-weight: 400;
+            font-size: 11px;
+        }
+
+        /* Contribution */
+
+        .contribution {
+            background: var(--navy);
+            color: white;
+        }
+
+        .contribution h2 {
+            color: white;
+        }
+
+        .contribution .section-intro {
+            color: #cbd8e8;
+        }
+
+        .contribution-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 18px;
+        }
+
+        .contribution-card {
+            padding: 28px;
+            border: 1px solid rgba(255,255,255,0.14);
+            border-radius: 14px;
+            background: rgba(255,255,255,0.06);
+        }
+
+        .contribution-card h3 {
+            font-size: 18px;
+            margin-bottom: 12px;
+            color: white;
+        }
+
+        .contribution-card p {
+            color: #d5dfec;
+            font-size: 14px;
+        }
+
+        .contribution-card ul {
+            margin-top: 12px;
+            padding-left: 19px;
+            color: #d5dfec;
+            font-size: 14px;
+        }
+
+        .contribution-card li {
+            margin-bottom: 7px;
+        }
+
+        /* Timeline */
+
+        .timeline {
+            position: relative;
+            margin-top: 40px;
+        }
+
+        .timeline::before {
+            content: "";
+            position: absolute;
+            left: 90px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--border);
+        }
+
+        .timeline-item {
+            display: grid;
+            grid-template-columns: 180px 1fr;
+            gap: 35px;
+            position: relative;
+            margin-bottom: 35px;
+        }
+
+        .timeline-year {
+            font-weight: 800;
+            color: var(--blue);
+            font-size: 14px;
+        }
+
+        .timeline-content {
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 25px;
+            box-shadow: 0 8px 25px rgba(11,45,87,0.04);
+        }
+
+        .timeline-content h3 {
+            color: var(--navy);
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .timeline-content ul {
+            padding-left: 18px;
+            color: var(--muted);
+            font-size: 14px;
+        }
+
+        .timeline-content li {
+            margin-bottom: 7px;
+        }
+
+        /* AI Search */
+
+        .ai-box {
+            background: linear-gradient(135deg, #edf7ff, #ffffff);
+            border: 1px solid #cfe3f7;
+            border-radius: 18px;
+            padding: 40px;
+        }
+
+        .ai-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .ai-item {
+            background: white;
+            border-radius: 12px;
+            padding: 23px;
+            border: 1px solid var(--border);
+        }
+
+        .ai-item strong {
+            display: block;
+            color: var(--navy);
+            margin-bottom: 8px;
+        }
+
+        .ai-item span {
+            color: var(--muted);
+            font-size: 13px;
+        }
+
+        /* FAQ */
+
+        .faq {
+            max-width: 900px;
+        }
+
+        details {
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            margin-bottom: 12px;
+            padding: 19px 22px;
+        }
+
+        summary {
+            cursor: pointer;
+            color: var(--navy);
+            font-weight: 700;
+        }
+
+        details p {
+            color: var(--muted);
+            margin-top: 13px;
+            font-size: 14px;
+        }
+
+        /* CTA */
+
+        .cta {
+            text-align: center;
+            background: linear-gradient(135deg, #edf7ff, #ffffff);
+        }
+
+        .cta p {
+            max-width: 700px;
+            margin: 0 auto 25px;
+            color: var(--muted);
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 13px 22px;
+            background: var(--blue);
+            color: white;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 14px;
+        }
+
+        .btn:hover {
+            background: var(--navy);
+        }
+
+        /* Footer */
+
+        footer {
+            background: #061a31;
+            color: #a9b9cb;
+            padding: 35px 0;
+            font-size: 13px;
+        }
+
+        .footer-inner {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        footer strong {
+            color: white;
+        }
+
+        /* Responsive */
+
+        @media (max-width: 900px) {
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .services-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .industry-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .company-grid,
+            .contribution-grid,
+            .ai-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 650px) {
+
+            .nav-links {
+                display: none;
+            }
+
+            .hero {
+                padding: 65px 0;
+            }
+
+            section {
+                padding: 65px 0;
+            }
+
+            .stats-grid,
+            .services-grid,
+            .industry-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .timeline::before {
+                display: none;
+            }
+
+            .timeline-item {
+                grid-template-columns: 1fr;
+                gap: 8px;
+            }
+
+            .footer-inner {
+                flex-direction: column;
+            }
+        }
+
+    </style>
+
+    <!-- Structured Data: WebPage + Person + Organization + Breadcrumb + FAQ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+
+        {
+          "@type": "WebPage",
+          "@id": "https://balajirajaram.wikiseo.in/chimera-technologies/#webpage",
+          "url": "https://balajirajaram.wikiseo.in/chimera-technologies/",
+          "name": "Chimera Technologies | Balaji Rajaram – B2B Marketing, SEO & Digital Growth",
+          "description": "Professional portfolio documenting Balaji Rajaram's six-year marketing and digital growth experience at Chimera Technologies Pvt Ltd.",
+          "isPartOf": {
+            "@type": "WebSite",
+            "@id": "https://balajirajaram.wikiseo.in/#website",
+            "url": "https://balajirajaram.wikiseo.in/",
+            "name": "Balaji Rajaram"
+          },
+          "about": {
+            "@id": "https://www.chimeratechnologies.com/#organization"
+          },
+          "author": {
+            "@id": "https://balajirajaram.wikiseo.in/#person"
+          },
+          "mainEntity": {
+            "@id": "https://balajirajaram.wikiseo.in/chimera-technologies/#experience"
+          }
+        },
+
+        {
+          "@type": "Person",
+          "@id": "https://balajirajaram.wikiseo.in/#person",
+          "name": "Balaji Rajaram",
+          "url": "https://balajirajaram.wikiseo.in/",
+          "jobTitle": "B2B Technology Marketing Professional",
+          "sameAs": [
+            "https://www.linkedin.com/in/balajiseoz/"
+          ],
+          "knowsAbout": [
+            "B2B Technology Marketing",
+            "SEO",
+            "Technical SEO",
+            "Digital Marketing",
+            "Demand Generation",
+            "Content Marketing",
+            "Website Strategy",
+            "Answer Engine Optimization",
+            "Generative Engine Optimization",
+            "AI Search Optimization",
+            "LLM Discoverability",
+            "Generative AI"
+          ]
+        },
+
+        {
+          "@type": "Organization",
+          "@id": "https://www.chimeratechnologies.com/#organization",
+          "name": "Chimera Technologies Pvt Ltd",
+          "alternateName": "Chimera Technologies",
+          "url": "https://www.chimeratechnologies.com/",
+          "sameAs": [
+            "https://www.linkedin.com/company/chimera-technologies-private-limited/"
+          ],
+          "industry": "IT Services and IT Consulting"
+        },
+
+        {
+          "@type": "Role",
+          "@id": "https://balajirajaram.wikiseo.in/chimera-technologies/#experience",
+          "roleName": "Senior Marketing Executive",
+          "startDate": "2020-06",
+          "endDate": "2026-07",
+          "worksFor": {
+            "@id": "https://www.chimeratechnologies.com/#organization"
+          },
+          "memberOf": {
+            "@id": "https://www.chimeratechnologies.com/#organization"
+          },
+          "description": "Senior Marketing Executive role focused on B2B technology marketing, SEO, website strategy, content marketing, demand generation, social media, online reputation management and AI-search optimization."
+        },
+
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://balajirajaram.wikiseo.in/chimera-technologies/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://balajirajaram.wikiseo.in/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Chimera Technologies",
+              "item": "https://balajirajaram.wikiseo.in/chimera-technologies/"
+            }
+          ]
+        },
+
+        {
+          "@type": "FAQPage",
+          "@id": "https://balajirajaram.wikiseo.in/chimera-technologies/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is Chimera Technologies?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Chimera Technologies Pvt Ltd is an IT services and technology company headquartered in Bengaluru, India, providing AI, product engineering, digital transformation, quality assurance, cloud and data analytics solutions for enterprises and independent software vendors."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What services does Chimera Technologies provide?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Chimera Technologies provides Gen AI and Agentic Systems, Digital Assurance, AI-powered Digital Transformation, Platform-Led Engineering, Machine Learning and Data Analytics, along with related product engineering, cloud, testing and low-code/no-code capabilities."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Which industries does Chimera Technologies serve?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Chimera Technologies works across industries including Pharma, Insurance and InsurTech, Finance and FinTech, Healthcare and Education, with additional technology experience across areas such as LegalTech and enterprise software."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What did Balaji Rajaram do at Chimera Technologies?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Balaji Rajaram worked as Senior Marketing Executive at Chimera Technologies from June 2020 to July 2026, contributing to B2B marketing, SEO, website strategy, content marketing, demand generation, social media, online reputation management, sales enablement and AI Search optimization."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What SEO work did Balaji Rajaram do at Chimera Technologies?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Balaji worked on technical SEO, keyword research, search-intent-led content, website optimization, landing pages, case studies, internal linking, redirects, Google Search Console, GA4, SEMrush and broader organic growth initiatives."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What AI Search optimization work did Balaji Rajaram do?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Balaji implemented foundational AI Search Optimization practices including AEO, GEO, LLM discoverability, intent-focused content, structured Q&A, entity-focused optimization and AI-search-friendly website content."
+              }
+            }
+          ]
+        }
+
+      ]
+    }
+    </script>
+
+</head>
+
+<body>
+
+<header>
+    <div class="container nav">
+        <a class="logo" href="https://balajirajaram.wikiseo.in/">
+            BALAJI <span>RAJARAM</span>
+        </a>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="https://balajirajaram.wikiseo.in/">Home</a></li>
+                <li><a href="https://balajirajaram.wikiseo.in/#expertise">Expertise</a></li>
+                <li><a href="https://balajirajaram.wikiseo.in/#experience">Experience</a></li>
+                <li><a href="https://balajirajaram.wikiseo.in/#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+<!-- HERO -->
+
+<main>
+
+<section class="hero">
+
+    <div class="container">
+
+        <div class="eyebrow">
+            B2B Technology Marketing Portfolio
+        </div>
+
+        <h1>
+            Chimera Technologies —
+            <span>6 Years of B2B Marketing, SEO & Digital Growth</span>
+        </h1>
+
+        <p class="hero-lead">
+            A professional portfolio documenting my six-year journey at
+            <strong>Chimera Technologies Pvt Ltd</strong>, where I worked across
+            B2B technology marketing, SEO, website strategy, content marketing,
+            demand generation, social media, online reputation management and
+            emerging AI Search optimization.
+        </p>
+
+        <div class="hero-meta">
+            <div class="meta">Senior Marketing Executive</div>
+            <div class="meta">June 2020 – July 2026</div>
+            <div class="meta">Bengaluru, India</div>
+            <div class="meta">IT Services & Technology</div>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- STATS -->
+
+<section class="stats">
+
+    <div class="container">
+
+        <div class="stats-grid">
+
+            <div class="stat">
+                <strong>3X</strong>
+                <span>Organic traffic growth through website transformation and SEO</span>
+            </div>
+
+            <div class="stat">
+                <strong>2X</strong>
+                <span>Inbound lead growth through digital acquisition initiatives</span>
+            </div>
+
+            <div class="stat">
+                <strong>31K+</strong>
+                <span>LinkedIn community grown from approximately 300 followers</span>
+            </div>
+
+            <div class="stat">
+                <strong>5% → 30%</strong>
+                <span>Marketing-attributed revenue contribution</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ABOUT CHIMERA -->
+
+<section>
+
+    <div class="container">
+
+        <div class="section-label">Company Overview</div>
+
+        <h2>About Chimera Technologies</h2>
+
+        <p class="section-intro">
+            <strong>Chimera Technologies Pvt Ltd</strong>, also known as
+            <strong>Chimera Technologies</strong>, is an IT services and technology
+            company headquartered in Bengaluru, India. The company works with
+            enterprises and independent software vendors to build, modernize,
+            test and scale digital products and technology platforms.
+        </p>
+
+        <div class="company-grid">
+
+            <div class="company-card">
+
+                <h3>Technology & Engineering Focus</h3>
+
+                <p>
+                    Chimera Technologies combines software engineering,
+                    artificial intelligence, cloud, quality engineering,
+                    data and digital transformation capabilities to support
+                    technology modernization and product development.
+                </p>
+
+                <div class="entity-list">
+                    <span class="tag">Gen AI</span>
+                    <span class="tag">Agentic AI</span>
+                    <span class="tag">Digital Transformation</span>
+                    <span class="tag">Product Engineering</span>
+                    <span class="tag">Cloud</span>
+                    <span class="tag">QA & Testing</span>
+                    <span class="tag">ML & Analytics</span>
+                    <span class="tag">Low-Code / No-Code</span>
+                </div>
+
+            </div>
+
+
+            <div class="company-card">
+
+                <h3>Global Technology Services</h3>
+
+                <p>
+                    During my tenure, I supported the company's digital marketing
+                    and online growth initiatives across its technology offerings,
+                    helping translate complex IT services into search-friendly,
+                    customer-focused marketing content.
+                </p>
+
+                <p>
+                    My work connected technology messaging with SEO, website
+                    experience, content strategy, social media, demand generation,
+                    sales enablement and emerging AI-search practices.
+                </p>
+
+                <div class="entity-list">
+                    <span class="tag">B2B Marketing</span>
+                    <span class="tag">SEO</span>
+                    <span class="tag">Content Strategy</span>
+                    <span class="tag">Demand Generation</span>
+                    <span class="tag">AEO</span>
+                    <span class="tag">GEO</span>
+                    <span class="tag">AI Search</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SERVICES -->
+
+<section>
+
+    <div class="container">
+
+        <div class="section-label">Technology Services</div>
+
+        <h2>Chimera Technologies Services</h2>
+
+        <p class="section-intro">
+            Chimera Technologies' technology portfolio spans AI, software
+            engineering, digital transformation, quality engineering,
+            data and cloud capabilities. My marketing work helped communicate
+            these technology capabilities through website pages, content,
+            social channels, case studies and search optimization.
+        </p>
+
+        <div class="services-grid">
+
+            <article class="service-card">
+                <div class="service-number">01</div>
+                <h3>Gen AI & Agentic Systems</h3>
+                <p>
+                    AI copilots, intelligent workflows, generative AI use cases
+                    and agentic systems designed to automate business processes
+                    and support decision-making.
+                </p>
+            </article>
+
+            <article class="service-card">
+                <div class="service-number">02</div>
+                <h3>Digital Transformation</h3>
+                <p>
+                    Modernization of legacy applications, fragmented workflows
+                    and enterprise technology environments through digital
+                    transformation and product engineering.
+                </p>
+            </article>
+
+            <article class="service-card">
+                <div class="service-number">03</div>
+                <h3>Platform-Led Engineering</h3>
+                <p>
+                    Enterprise platform modernization, application engineering,
+                    integrations and intelligent workflow development.
+                </p>
+            </article>
+
+            <article class="service-card">
+                <div class="service-number">04</div>
+                <h3>Digital Assurance</h3>
+                <p>
+                    Manual and automated testing, quality engineering,
+                    performance testing and release-quality initiatives.
+                </p>
+            </article>
+
+            <article class="service-card">
+                <div class="service-number">05</div>
+                <h3>ML & Data Analytics</h3>
+                <p>
+                    Data pipelines, analytics, business intelligence and
+                    predictive models supporting data-driven decision-making.
+                </p>
+            </article>
+
+            <article class="service-card">
+                <div class="service-number">06</div>
+                <h3>Low-Code / No-Code & Cloud</h3>
+                <p>
+                    Low-code/no-code platforms, workflow automation,
+                    cloud-native applications and DevOps capabilities.
+                </p>
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- INDUSTRIES -->
+
+<section>
+
+    <div class="container">
+
+        <div class="section-label">Industry Expertise</div>
+
+        <h2>Industries Supported by Chimera Technologies</h2>
+
+        <p class="section-intro">
+            Chimera Technologies delivers technology solutions across
+            multiple business domains, with industry-focused capabilities
+            spanning healthcare, financial services, insurance, education
+            and enterprise technology.
+        </p>
+
+        <div class="industry-grid">
+
+            <div class="industry">
+                Pharma
+                <small>Life Sciences & Technology</small>
+            </div>
+
+            <div class="industry">
+                Insurance
+                <small>InsurTech & Insurance Platforms</small>
+            </div>
+
+            <div class="industry">
+                Finance
+                <small>FinTech, Payments & Lending</small>
+            </div>
+
+            <div class="industry">
+                Healthcare
+                <small>Digital Health & Enterprise Systems</small>
+            </div>
+
+            <div class="industry">
+                Education
+                <small>EdTech & Digital Platforms</small>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- BALAJI CONTRIBUTION -->
+
+<section class="contribution">
+
+    <div class="container">
+
+        <div class="section-label">My Contribution</div>
+
+        <h2>How I Contributed at Chimera Technologies</h2>
+
+        <p class="section-intro">
+            As Senior Marketing Executive, I worked at the intersection of
+            technology, marketing, SEO, content and business development.
+            My role involved turning complex technology capabilities into
+            discoverable, understandable and conversion-focused digital assets.
+        </p>
+
+
+        <div class="contribution-grid">
+
+            <div class="contribution-card">
+
+                <h3>SEO & Organic Growth</h3>
+
+                <ul>
+                    <li>Led technical and on-page SEO initiatives across the website.</li>
+                    <li>Worked on keyword research, search intent, content optimization and internal linking.</li>
+                    <li>Optimized solution pages, landing pages, case studies and blogs.</li>
+                    <li>Worked with Google Search Console, GA4, SEMrush and website analytics.</li>
+                    <li>Contributed to 3X organic traffic growth.</li>
+                </ul>
+
+            </div>
+
+
+            <div class="contribution-card">
+
+                <h3>Website Strategy & Content</h3>
+
+                <ul>
+                    <li>Supported website transformation and ongoing website optimization.</li>
+                    <li>Created and optimized landing pages, service pages and case studies.</li>
+                    <li>Worked with developers, designers and content teams on website improvements.</li>
+                    <li>Improved website structure, navigation, redirects and content discoverability.</li>
+                    <li>Created technology-focused content around AI, digital transformation, cloud and low-code/no-code.</li>
+                </ul>
+
+            </div>
+
+
+            <div class="contribution-card">
+
+                <h3>Demand Generation & Inbound Marketing</h3>
+
+                <ul>
+                    <li>Supported digital acquisition and inbound lead generation initiatives.</li>
+                    <li>Connected website, SEO, content and social activity with business objectives.</li>
+                    <li>Contributed to 2X inbound lead growth.</li>
+                    <li>Supported sales enablement through presentations, solution narratives and marketing assets.</li>
+                    <li>Contributed to marketing-attributed revenue growth from 5% to 30%.</li>
+                </ul>
+
+            </div>
+
+
+            <div class="contribution-card">
+
+                <h3>LinkedIn & Brand Growth</h3>
+
+                <ul>
+                    <li>Managed and supported B2B social media marketing initiatives.</li>
+                    <li>Grew the LinkedIn community from approximately 300 to 31,000+ followers.</li>
+                    <li>Created and promoted technology-focused posts and thought-leadership content.</li>
+                    <li>Supported executive communication and brand visibility.</li>
+                    <li>Coordinated content, design and publishing workflows.</li>
+                </ul>
+
+            </div>
+
+
+            <div class="contribution-card">
+
+                <h3>AI Search, AEO & GEO</h3>
+
+                <ul>
+                    <li>Implemented foundational AI Search Optimization practices.</li>
+                    <li>Applied AEO and GEO principles to selected website pages and content.</li>
+                    <li>Worked on intent-focused content and structured Q&A.</li>
+                    <li>Applied entity-focused optimization and LLM discoverability principles.</li>
+                    <li>Combined traditional SEO with emerging AI-search optimization practices.</li>
+                </ul>
+
+            </div>
+
+
+            <div class="contribution-card">
+
+                <h3>AI-Assisted Marketing</h3>
+
+                <ul>
+                    <li>Used ChatGPT and Claude to accelerate marketing research and content workflows.</li>
+                    <li>Developed prompts for blogs, landing pages, case studies and solution narratives.</li>
+                    <li>Used Generative AI to support presentations and executive communication.</li>
+                    <li>Introduced AI-assisted workflows into day-to-day marketing execution.</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- SIX YEAR JOURNEY -->
+
+<section>
+
+    <div class="container">
+
+        <div class="section-label">Six-Year Journey</div>
+
+        <h2>My Journey at Chimera Technologies</h2>
+
+        <p class="section-intro">
+            My role evolved from hands-on SEO and website execution into a
+            broader B2B technology marketing role covering digital growth,
+            content, social media, demand generation, reputation management
+            and AI-powered marketing.
+        </p>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <div class="timeline-year">2020 – 2021</div>
+
+                <div class="timeline-content">
+
+                    <h3>Building the SEO & Website Foundation</h3>
+
+                    <ul>
+                        <li>Implemented website improvements, URL restructuring and custom pages.</li>
+                        <li>Expanded keyword visibility from approximately 5 to 108 ranking keywords.</li>
+                        <li>Achieved 50 Google first-page keyword rankings.</li>
+                        <li>Supported backlink growth and Google Business Profile optimization.</li>
+                        <li>Created new landing pages and supported website revamp activities.</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-year">2021 – 2022</div>
+
+                <div class="timeline-content">
+
+                    <h3>Expanding Organic Visibility</h3>
+
+                    <ul>
+                        <li>Expanded website content through landing pages, case studies and news pages.</li>
+                        <li>Supported international location and local SEO initiatives.</li>
+                        <li>Managed digital marketing calendars and social media execution.</li>
+                        <li>Contributed to online reputation management.</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-year">2022 – 2023</div>
+
+                <div class="timeline-content">
+
+                    <h3>Scaling Content & Social Marketing</h3>
+
+                    <ul>
+                        <li>Expanded case studies, service pages and event-focused content.</li>
+                        <li>Supported LinkedIn growth toward 15K followers.</li>
+                        <li>Created LinkedIn articles and technology-focused content.</li>
+                        <li>Supported website metadata, navigation and hreflang improvements.</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-year">2023 – 2024</div>
+
+                <div class="timeline-content">
+
+                    <h3>Independent Marketing Ownership</h3>
+
+                    <ul>
+                        <li>Supported LinkedIn growth toward 20K followers.</li>
+                        <li>Managed website content, events, case studies and Chimera Diaries.</li>
+                        <li>Supported online reputation and employer-branding initiatives.</li>
+                        <li>Received Champion of Chimera recognition.</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-year">2024 – 2025</div>
+
+                <div class="timeline-content">
+
+                    <h3>Connecting Marketing with Business Growth</h3>
+
+                    <ul>
+                        <li>Supported inbound opportunities and technology-focused marketing initiatives.</li>
+                        <li>Created and upgraded sales enablement assets and solution walkthroughs.</li>
+                        <li>Coordinated website revamp initiatives.</li>
+                        <li>Supported ISO-related internal communication and marketing coordination.</li>
+                        <li>Expanded online reputation management initiatives.</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-year">2025 – 2026</div>
+
+                <div class="timeline-content">
+
+                    <h3>Digital Growth, AI Search & Strategic Marketing</h3>
+
+                    <ul>
+                        <li>Expanded B2B technology content across AI, digital transformation, cloud and enterprise technology.</li>
+                        <li>Created and optimized 60+ blogs and supported 100+ social media posts.</li>
+                        <li>Worked on website fixes including 404 issues, redirects and content improvements.</li>
+                        <li>Implemented foundational AEO, GEO and LLM discoverability practices.</li>
+                        <li>Optimized website content and structure for AI Search experiences.</li>
+                        <li>Used ChatGPT and Claude to support AI-assisted marketing workflows.</li>
+                        <li>Continued growing the LinkedIn community toward 30K+.</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- AI SEARCH -->
+
+<section>
+
+    <div class="container">
+
+        <div class="ai-box">
+
+            <div class="section-label">AI Search & Discoverability</div>
+
+            <h2>From Traditional SEO to AI Search</h2>
+
+            <p class="section-intro">
+                During the later stage of my Chimera Technologies journey,
+                I expanded my SEO work into the emerging area of AI Search.
+                I learned and implemented the foundational practices of
+                AEO, GEO and LLM discoverability while continuing to apply
+                traditional SEO principles.
+            </p>
+
+            <div class="ai-grid">
+
+                <div class="ai-item">
+                    <strong>AEO</strong>
+                    <span>
+                        Answer-focused content, structured Q&A,
+                        search intent and concise information architecture.
+                    </span>
+                </div>
+
+                <div class="ai-item">
+                    <strong>GEO</strong>
+                    <span>
+                        Content optimization for generative search
+                        experiences and clearer entity relationships.
+                    </span>
+                </div>
+
+                <div class="ai-item">
+                    <strong>LLM Discoverability</strong>
+                    <span>
+                        Improving content clarity, topical relevance,
+                        entity context and machine-readable information.
+                    </span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- FAQ -->
+
+<section>
+
+    <div class="container faq">
+
+        <div class="section-label">Frequently Asked Questions</div>
+
+        <h2>Chimera Technologies – FAQs</h2>
+
+        <details open>
+            <summary>What is Chimera Technologies?</summary>
+            <p>
+                Chimera Technologies Pvt Ltd is an IT services and technology
+                company headquartered in Bengaluru, India. The company provides
+                AI, product engineering, digital transformation, quality
+                assurance, cloud and data analytics solutions.
+            </p>
+        </details>
+
+        <details>
+            <summary>What services does Chimera Technologies provide?</summary>
+            <p>
+                Chimera Technologies provides Gen AI and Agentic Systems,
+                Digital Assurance, AI-powered Digital Transformation,
+                Platform-Led Engineering, Machine Learning and Data Analytics,
+                along with related cloud, testing and low-code/no-code
+                capabilities.
+            </p>
+        </details>
+
+        <details>
+            <summary>Which industries does Chimera Technologies serve?</summary>
+            <p>
+                Chimera Technologies supports industries including Pharma,
+                Insurance and InsurTech, Finance and FinTech, Healthcare and
+                Education, with additional experience in enterprise technology
+                and technology-led industry solutions.
+            </p>
+        </details>
+
+        <details>
+            <summary>What did Balaji Rajaram do at Chimera Technologies?</summary>
+            <p>
+                Balaji Rajaram worked as Senior Marketing Executive at
+                Chimera Technologies Pvt Ltd from June 2020 to July 2026.
+                His responsibilities covered B2B marketing, SEO, website
+                strategy, content marketing, demand generation, social media,
+                reputation management, sales enablement and AI Search
+                optimization.
+            </p>
+        </details>
+
+        <details>
+            <summary>What SEO experience did Balaji Rajaram gain at Chimera Technologies?</summary>
+            <p>
+                His SEO work included technical SEO, keyword research,
+                search intent, content optimization, website architecture,
+                internal linking, redirects, landing pages, case studies,
+                Google Search Console, GA4 and SEMrush.
+            </p>
+        </details>
+
+        <details>
+            <summary>What AI Search optimization work did Balaji Rajaram do?</summary>
+            <p>
+                Balaji implemented foundational AI Search Optimization,
+                AEO and GEO practices including intent-focused content,
+                structured Q&A, entity optimization and LLM discoverability.
+            </p>
+        </details>
+
+    </div>
+
+</section>
+
+
+<!-- CTA -->
+
+<section class="cta" id="contact">
+
+    <div class="container">
+
+        <div class="section-label">Explore More</div>
+
+        <h2>More About My Marketing & SEO Experience</h2>
+
+        <p>
+            Explore my broader experience across B2B technology marketing,
+            SEO, digital growth, demand generation, AI Search, content strategy
+            and website transformation.
+        </p>
+
+        <a class="btn" href="https://balajirajaram.wikiseo.in/">
+            Back to Portfolio
+        </a>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+    <div class="container footer-inner">
+
+        <div>
+            <strong>Balaji Rajaram</strong><br>
+            B2B Technology Marketing | SEO | Digital Growth | AEO | GEO
+        </div>
+
+        <div>
+            Chimera Technologies Portfolio · 2020–2026
+        </div>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
