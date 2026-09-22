@@ -335,13 +335,13 @@
 
 <header class="site">
   <div class="wrap">
-    <a class="brand" href="#top">
+  
       <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <circle cx="13" cy="13" r="12" fill="#F2A93B"/>
         <circle cx="13" cy="13" r="5" fill="#E2532E"/>
       </svg>
-      balajirajaram.wikiseo.in
-    </a>
+      
+    
   </div>
 </header>
 
