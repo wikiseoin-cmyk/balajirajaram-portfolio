@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Primary SEO -->
+<title>Tanushree B | Tanushree Balaji | Tanushree Bangalore</title>
+<meta name="description" content="Meet Tanushree Balaji (Tanushree B) — a bright, dancing, doodling seven-year-old from Bangalore who loves Bharatanatyam, badminton, coloring, cartoons and trips to the park.">
+<meta name="keywords" content="Tanushree B, Tanushree Balaji, Tanushree Bangalore, Tanushree, Balaji Rajaram">
+<link rel="canonical" href="https://balajirajaram.wikiseo.in/tanushree-bangalore">
+<meta name="robots" content="index, follow">
+<meta name="author" content="Balaji Rajaram">
+
+<!-- Open Graph -->
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Tanushree B | Tanushree Balaji | Tanushree Bangalore">
+<meta property="og:description" content="A bright, dancing, doodling seven-year-old from Bangalore who loves Bharatanatyam, badminton, coloring, cartoons and trips to the park.">
+<meta property="og:url" content="https://balajirajaram.wikiseo.in/tanushree-bangalore">
+<meta property="og:locale" content="en_IN">
+<meta property="profile:first_name" content="Tanushree">
+<meta property="profile:last_name" content="Balaji">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Tanushree B | Tanushree Balaji | Tanushree Bangalore">
+<meta name="twitter:description" content="A bright, dancing, doodling seven-year-old from Bangalore who loves Bharatanatyam, badminton, coloring, cartoons and trips to the park.">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito+Sans:ital,wght@0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+
+<!-- Structured data: Person (kept deliberately general — no birth date, school name or neighborhood) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Tanushree Balaji",
+  "alternateName": ["Tanushree B", "Tanushree"],
+  "description": "A bright, dancing, doodling seven-year-old from Bangalore who loves Bharatanatyam, badminton, coloring, cartoons and trips to the park.",
+  "homeLocation": {
+    "@type": "Place",
+    "name": "Bangalore, India"
+  },
+  "knowsAbout": ["Bharatanatyam", "Badminton", "Coloring", "Cartoons"],
+  "url": "https://balajirajaram.wikiseo.in/tanushree-bangalore"
+}
+</script>
+
+<!-- Structured data: FAQ, for answer-engine / AI-assistant retrieval (AEO/GEO) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Who is Tanushree Balaji?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tanushree Balaji, also known as Tanushree B, is a seven-year-old girl from Bangalore, India, currently in the second standard. She is known for her love of dance, drawing and the outdoors."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are Tanushree's hobbies?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tanushree enjoys Bharatanatyam classes, playing badminton, coloring and scribbling, dancing, and watching cartoons. She also loves trying new foods and visiting parks and malls with her family."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is Tanushree Balaji from?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tanushree Balaji is from Bangalore, Karnataka, India."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What class is Tanushree in?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tanushree is currently studying in the second standard, after completing her nursery, LKG and UKG years at schools in Bangalore."
+      }
+    }
+  ]
+}
+</script>
+
+<style>
+  :root {
+    --bg: #fff4e0;
+    --bg-panel: #fffaf1;
+    --ink: #2b2320;
+    --ink-soft: #6b5d52;
+    --vermillion: #e2532e;
+    --teal: #1e6e63;
+    --violet: #8b4a9c;
+    --marigold: #f2a93b;
+    --line: #ecd9b6;
+    --radius-card: 22px;
+    --font-display: 'Baloo 2', system-ui, sans-serif;
+    --font-body: 'Nunito Sans', system-ui, sans-serif;
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-body);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a { color: var(--teal); }
+
+  .wrap {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* ---------- Header ---------- */
+  header.site {
+    padding: 28px 0 10px;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.15rem;
+    color: var(--vermillion);
+    text-decoration: none;
+  }
+  .brand svg { flex-shrink: 0; }
+
+  /* ---------- Hero ---------- */
+  .hero {
+    padding: 40px 0 10px;
+    display: grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 32px;
+    align-items: center;
+  }
+  .hero h1 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    font-size: clamp(2.6rem, 6vw, 4rem);
+    line-height: 1.02;
+    margin: 0 0 14px;
+    color: var(--ink);
+  }
+  .hero .tagline {
+    font-size: 1.2rem;
+    color: var(--ink-soft);
+    margin: 0 0 20px;
+    max-width: 46ch;
+  }
+  .hero .meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .pill {
+    font-family: var(--font-body);
+    font-weight: 700;
+    font-size: 0.92rem;
+    padding: 7px 16px;
+    border-radius: 999px;
+    background: var(--bg-panel);
+    border: 1.5px solid var(--line);
+    color: var(--ink-soft);
+  }
+  .hero-art { width: 100%; height: auto; }
+
+  /* ---------- About ---------- */
+  .about {
+    padding: 50px 0 10px;
+  }
+  .about h2 {
+    font-family: var(--font-display);
+    font-size: 1.9rem;
+    font-weight: 700;
+    margin: 0 0 14px;
+    color: var(--teal);
+  }
+  .about p {
+    font-size: 1.08rem;
+    max-width: 66ch;
+    color: var(--ink);
+  }
+
+  /* ---------- Journey timeline (a real sequence, so numbered) ---------- */
+  .journey {
+    padding: 46px 0 10px;
+  }
+  .journey h2 {
+    font-family: var(--font-display);
+    font-size: 1.9rem;
+    font-weight: 700;
+    margin: 0 0 26px;
+    color: var(--violet);
+  }
+  .timeline {
+    position: relative;
+    padding-left: 34px;
+    border-left: 3px dashed var(--line);
+  }
+  .step {
+    position: relative;
+    padding-bottom: 26px;
+  }
+  .step:last-child { padding-bottom: 0; }
+  .step::before {
+    content: attr(data-n);
+    position: absolute;
+    left: -49px;
+    top: -2px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: var(--marigold);
+    color: #fff;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .step.current::before { background: var(--vermillion); }
+  .step h3 {
+    margin: 0 0 3px;
+    font-family: var(--font-display);
+    font-size: 1.12rem;
+    font-weight: 600;
+  }
+  .step p { margin: 0; color: var(--ink-soft); font-size: 0.98rem; }
+
+  /* ---------- Favorites scrapbook grid ---------- */
+  .favorites {
+    padding: 50px 0 10px;
+  }
+  .favorites h2 {
+    font-family: var(--font-display);
+    font-size: 1.9rem;
+    font-weight: 700;
+    margin: 0 0 26px;
+    color: var(--vermillion);
+  }
+  .scrap-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+  }
+  .scrap-card {
+    background: var(--bg-panel);
+    border: 1.5px solid var(--line);
+    border-radius: var(--radius-card);
+    padding: 22px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .scrap-card:nth-child(3n+1) { transform: rotate(-0.6deg); }
+  .scrap-card:nth-child(3n+2) { transform: rotate(0.5deg); }
+  .scrap-card:nth-child(3n)   { transform: rotate(-0.3deg); }
+  .scrap-card .icon { width: 40px; height: 40px; }
+  .scrap-card h3 {
+    margin: 0;
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    font-weight: 600;
+  }
+  .scrap-card p {
+    margin: 0;
+    font-size: 0.95rem;
+    color: var(--ink-soft);
+  }
+
+  /* ---------- Closing ---------- */
+  .closing {
+    padding: 60px 0 30px;
+    text-align: center;
+  }
+  .closing blockquote {
+    font-family: var(--font-display);
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--teal);
+    max-width: 40ch;
+    margin: 0 auto;
+  }
+
+  footer.site {
+    border-top: 1.5px solid var(--line);
+    padding: 22px 0 40px;
+    text-align: center;
+    color: var(--ink-soft);
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 760px) {
+    .hero { grid-template-columns: 1fr; }
+    .hero-art { max-width: 320px; margin: 0 auto; }
+    .scrap-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 480px) {
+    .scrap-grid { grid-template-columns: 1fr; }
+    .scrap-card, .scrap-card:nth-child(3n+1), .scrap-card:nth-child(3n+2), .scrap-card:nth-child(3n) {
+      transform: none;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+  }
+
+  :focus-visible {
+    outline: 3px solid var(--violet);
+    outline-offset: 2px;
+  }
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="#top">
+      <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="13" cy="13" r="12" fill="#F2A93B"/>
+        <circle cx="13" cy="13" r="5" fill="#E2532E"/>
+      </svg>
+      balajirajaram.wikiseo.in
+    </a>
+  </div>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero wrap">
+    <div>
+      <h1>Tanushree Balaji</h1>
+      <p class="tagline">A bright, dancing, doodling seven&#8209;year&#8209;old from Bangalore &mdash; equal parts Bharatanatyam dancer, badminton player and cartoon fan.</p>
+      <div class="meta-row">
+        <span class="pill">Bangalore, India</span>
+        <span class="pill">Born 2019</span>
+        <span class="pill">2nd Standard</span>
+      </div>
+    </div>
+    <svg class="hero-art" viewBox="0 0 420 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustration of a sunny park with a swing, flowers and hills">
+      <circle cx="330" cy="70" r="46" fill="#F2A93B"/>
+      <path d="M0 230 Q100 180 210 220 T420 210 V340 H0 Z" fill="#1E6E63" opacity="0.9"/>
+      <path d="M0 260 Q120 220 230 250 T420 245 V340 H0 Z" fill="#164F47"/>
+      <!-- swing frame -->
+      <path d="M90 120 L60 240 M180 120 L210 240 M60 120 L180 120" stroke="#6B4A2F" stroke-width="7" stroke-linecap="round" fill="none"/>
+      <line x1="95" y1="120" x2="95" y2="205" stroke="#8B4A9C" stroke-width="4"/>
+      <line x1="150" y1="120" x2="150" y2="205" stroke="#8B4A9C" stroke-width="4"/>
+      <rect x="90" y="200" width="65" height="12" rx="6" fill="#E2532E"/>
+      <!-- flowers -->
+      <g>
+        <circle cx="260" cy="255" r="8" fill="#E2532E"/>
+        <circle cx="248" cy="248" r="6" fill="#F2A93B"/>
+        <circle cx="272" cy="248" r="6" fill="#F2A93B"/>
+        <circle cx="260" cy="238" r="6" fill="#F2A93B"/>
+        <circle cx="260" cy="262" r="6" fill="#F2A93B"/>
+      </g>
+      <g>
+        <circle cx="340" cy="270" r="7" fill="#8B4A9C"/>
+        <circle cx="330" cy="264" r="5" fill="#fff"/>
+        <circle cx="350" cy="264" r="5" fill="#fff"/>
+        <circle cx="340" cy="256" r="5" fill="#fff"/>
+        <circle cx="340" cy="272" r="5" fill="#fff"/>
+      </g>
+      <!-- little bird -->
+      <path d="M330 110 Q338 104 346 110 Q338 116 330 110" fill="#E2532E"/>
+    </svg>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about wrap">
+    <h2>About Tanushree</h2>
+    <p>Tanushree is a cheerful, energetic seven&#8209;year&#8209;old who loves to keep her hands and feet busy &mdash; whether that means practicing a new Bharatanatyam adavu, chasing a shuttlecock across the badminton court, or filling a fresh page with color. She's a proud foodie who will try almost anything on her plate, and an even prouder cartoon fan who can recite her favorite characters' catchphrases on demand. Weekends are best spent at a park or a mall, exploring with her family.</p>
+  </section>
+
+  <!-- JOURNEY -->
+  <section class="journey wrap">
+    <h2>Her school journey so far</h2>
+    <div class="timeline">
+      <div class="step" data-n="1">
+        <h3>Nursery &amp; LKG</h3>
+        <p>Took her first steps into school life at a play school in Bangalore.</p>
+      </div>
+      <div class="step" data-n="2">
+        <h3>UKG</h3>
+        <p>Moved to a kindergarten in Bangalore to round out her early years.</p>
+      </div>
+      <div class="step current" data-n="3">
+        <h3>Second Standard &mdash; today</h3>
+        <p>Now happily settled into second standard at her school in Bangalore.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAVORITES -->
+  <section class="favorites wrap">
+    <h2>What she loves</h2>
+    <div class="scrap-grid">
+      <div class="scrap-card">
+        <svg class="icon" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="18" fill="#F7E3C4"/><path d="M20 8c3 5 8 6 8 12a8 8 0 1 1-16 0c0-6 5-7 8-12Z" fill="#E2532E"/></svg>
+        <h3>Bharatanatyam</h3>
+        <p>Learning the poses, rhythm and stories of classical dance.</p>
+      </div>
+      <div class="scrap-card">
+        <svg class="icon" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="18" fill="#DCEFE9"/><rect x="10" y="18" width="20" height="4" rx="2" fill="#1E6E63"/><circle cx="10" cy="20" r="4" fill="#1E6E63"/><circle cx="30" cy="20" r="4" fill="#1E6E63"/></svg>
+        <h3>Badminton</h3>
+        <p>Always up for a rally, racket in hand.</p>
+      </div>
+      <div class="scrap-card">
+        <svg class="icon" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="18" fill="#F2E1F0"/><rect x="12" y="12" width="16" height="16" rx="2" fill="#fff"/><path d="M14 22c2-4 4-4 6 0s4 4 6 0" stroke="#8B4A9C" stroke-width="2" fill="none"/></svg>
+        <h3>Coloring &amp; Scribbling</h3>
+        <p>Never far from a box of crayons and a blank page.</p>
+      </div>
+      <div class="scrap-card">
+        <svg class="icon" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="18" fill="#FDEBD3"/><path d="M20 10v20M12 16l16 8M28 16l-16 8" stroke="#F2A93B" stroke-width="2.5" stroke-linecap="round"/></svg>
+        <h3>Dancing</h3>
+        <p>Any music, any room &mdash; it's an invitation to dance.</p>
+      </div>
+      <div class="scrap-card">
+        <svg class="icon" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="18" fill="#F9E4DC"/><path d="M12 20a8 8 0 0 1 16 0" stroke="#E2532E" stroke-width="2.5" fill="none"/><circle cx="16" cy="22" r="2" fill="#E2532E"/><circle cx="24" cy="22" r="2" fill="#E2532E"/></svg>
+        <h3>Foodie</h3>
+        <p>A curious, enthusiastic eater who loves food a lot.</p>
+      </div>
+      <div class="scrap-card">
+        <svg class="icon" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="18" fill="#DDEAF4"/><circle cx="20" cy="20" r="9" fill="#fff"/><circle cx="17" cy="18" r="1.6" fill="#1E6E63"/><circle cx="23" cy="18" r="1.6" fill="#1E6E63"/><path d="M16 23c1.5 2 6.5 2 8 0" stroke="#1E6E63" stroke-width="1.6" fill="none"/></svg>
+        <h3>Cartoons</h3>
+        <p>A dedicated cartoon lover with favorites on repeat.</p>
+      </div>
+      <div class="scrap-card">
+        <svg class="icon" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="18" fill="#E3EFDB"/><path d="M10 26c3-8 17-8 20 0" stroke="#1E6E63" stroke-width="2.5" fill="none"/><circle cx="20" cy="14" r="4" fill="#F2A93B"/></svg>
+        <h3>Parks</h3>
+        <p>Happiest outdoors with room to run and swing.</p>
+      </div>
+      <div class="scrap-card">
+        <svg class="icon" viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="18" fill="#F3E6D8"/><rect x="12" y="14" width="16" height="14" rx="2" fill="#8B4A9C"/><rect x="16" y="10" width="8" height="6" rx="1" fill="#8B4A9C"/></svg>
+        <h3>Mall Outings</h3>
+        <p>Loves a family trip to browse, play and explore.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLOSING -->
+  <section class="closing wrap">
+    <blockquote>Curious, kind and always ready to dance.</blockquote>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <p>&copy; <span id="year"></span> balajirajaram.wikiseo.in &mdash; A little corner of the internet for Tanushree.</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
