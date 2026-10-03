@@ -1,1 +1,2697 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
 
+  <title>10 AI Search Optimization Principles for Any Website | SEO, AEO & GEO</title>
+
+  <meta name="description"
+        content="Learn 10 AI Search Optimization principles for any website, covering SEO, AEO, GEO, answer-first content, entities, semantic relationships, evidence, structured data, freshness and LLM discoverability.">
+
+  <meta name="author" content="Balaji Rajaram">
+
+  <meta name="robots"
+        content="index, follow, max-image-preview:large">
+
+  <link rel="canonical"
+        href="https://balajirajaram.wikiseo.in/seo-aeo-geo-trends/10-ai-search-optimization-principles-any-website">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+
+  <meta property="og:title"
+        content="10 AI Search Optimization Principles for Any Website">
+
+  <meta property="og:description"
+        content="A practical framework for optimizing websites for SEO, AEO, GEO, AI Search and LLM discoverability.">
+
+  <meta property="og:url"
+        content="https://balajirajaram.wikiseo.in/seo-aeo-geo-trends/10-ai-search-optimization-principles-any-website">
+
+  <meta property="og:site_name"
+        content="Balaji Rajaram">
+
+  <meta property="og:locale"
+        content="en_IN">
+
+  <meta property="article:published_time"
+        content="2026-10-03T00:00:00+05:30">
+
+  <meta property="article:modified_time"
+        content="2026-10-03T00:00:00+05:30">
+
+  <meta property="article:author"
+        content="Balaji Rajaram">
+
+
+  <style>
+
+    :root {
+      --bg: #ffffff;
+      --text: #17202a;
+      --muted: #5f6b76;
+      --border: #e5e7eb;
+      --soft: #f6f8fa;
+      --accent: #173b67;
+      --accent2: #245d94;
+      --green: #246b45;
+      --max: 1100px;
+      --shadow: 0 8px 30px rgba(0,0,0,.06);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+      color: var(--text);
+      background: var(--bg);
+    }
+
+    a {
+      color: var(--accent2);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(255,255,255,.97);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav-container {
+      max-width: var(--max);
+      margin: auto;
+      padding: 14px 20px;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .logo {
+      font-weight: 800;
+      letter-spacing: .04em;
+      color: var(--text);
+      white-space: nowrap;
+    }
+
+    .nav-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      font-size: 14px;
+    }
+
+    .container {
+      max-width: var(--max);
+      margin: auto;
+      padding: 0 20px;
+    }
+
+    main {
+      padding-bottom: 70px;
+    }
+
+    .hero {
+      padding: 70px 20px 50px;
+      background: linear-gradient(
+        180deg,
+        #f7f9fc 0%,
+        #ffffff 100%
+      );
+      border-bottom: 1px solid var(--border);
+    }
+
+    .hero-inner {
+      max-width: var(--max);
+      margin: auto;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 14px;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--accent2);
+    }
+
+    h1 {
+      max-width: 950px;
+      margin: 0 0 18px;
+      font-size: clamp(34px, 5vw, 58px);
+      line-height: 1.08;
+      letter-spacing: -.025em;
+    }
+
+    .hero-description {
+      max-width: 880px;
+      margin: 0 0 20px;
+      font-size: 20px;
+      color: var(--muted);
+    }
+
+    .meta {
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    .bluf {
+      max-width: 900px;
+      margin: 35px auto;
+      padding: 26px;
+      background: var(--soft);
+      border-left: 5px solid var(--accent);
+      border-radius: 8px;
+    }
+
+    .bluf strong {
+      color: var(--accent);
+    }
+
+    .toc {
+      margin: 40px 0;
+      padding: 28px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: #fff;
+      box-shadow: var(--shadow);
+    }
+
+    .toc h2 {
+      margin-top: 0;
+    }
+
+    .toc ol {
+      margin-bottom: 0;
+    }
+
+    section {
+      margin: 60px 0;
+    }
+
+    h2 {
+      font-size: 32px;
+      line-height: 1.2;
+      margin-bottom: 18px;
+    }
+
+    h3 {
+      font-size: 24px;
+      line-height: 1.3;
+      margin-top: 0;
+    }
+
+    h4 {
+      margin-bottom: 8px;
+    }
+
+    p {
+      margin-top: 0;
+    }
+
+    .principle {
+      margin: 42px 0;
+      padding: 30px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: #fff;
+      box-shadow: var(--shadow);
+      scroll-margin-top: 90px;
+    }
+
+    .principle-number {
+      display: inline-block;
+      margin-bottom: 10px;
+      font-size: 13px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: .07em;
+      color: var(--accent2);
+    }
+
+    .answer {
+      margin: 20px 0;
+      padding: 18px 20px;
+      border-left: 4px solid var(--green);
+      background: #f5faf7;
+      border-radius: 5px;
+    }
+
+    .action {
+      margin-top: 20px;
+      padding: 18px 20px;
+      background: var(--soft);
+      border-radius: 7px;
+    }
+
+    .action strong {
+      display: block;
+      margin-bottom: 7px;
+    }
+
+    .example {
+      margin-top: 20px;
+      padding: 18px 20px;
+      background: #fafafa;
+      border: 1px solid var(--border);
+      border-radius: 7px;
+    }
+
+    .example strong {
+      display: block;
+      margin-bottom: 7px;
+    }
+
+    .framework {
+      padding: 30px;
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+    }
+
+    .framework ol {
+      padding-left: 24px;
+    }
+
+    .principle-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+    }
+
+    .principle-card {
+      padding: 22px;
+      background: var(--soft);
+      border: 1px solid var(--border);
+      border-radius: 9px;
+    }
+
+    .checklist {
+      list-style: none;
+      padding: 0;
+    }
+
+    .checklist li {
+      margin: 10px 0;
+      padding: 13px 16px;
+      background: var(--soft);
+      border-radius: 6px;
+    }
+
+    .faq-item {
+      margin: 24px 0;
+      padding-bottom: 22px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .author {
+      padding: 32px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--soft);
+    }
+
+    .related {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+
+    .related a {
+      display: block;
+      padding: 18px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: #fff;
+    }
+
+    .sources li {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      padding: 40px 20px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    @media (max-width: 750px) {
+
+      .nav-links {
+        display: none;
+      }
+
+      .hero {
+        padding-top: 45px;
+      }
+
+      .principle-grid,
+      .related {
+        grid-template-columns: 1fr;
+      }
+
+      .principle {
+        padding: 23px;
+      }
+
+      h2 {
+        font-size: 28px;
+      }
+
+    }
+
+  </style>
+
+
+  <!-- STRUCTURED DATA -->
+
+  <script type="application/ld+json">
+
+  {
+    "@context": "https://schema.org",
+
+    "@graph": [
+
+      {
+        "@type": "Person",
+        "@id": "https://balajirajaram.wikiseo.in/#person",
+
+        "name": "Balaji Rajaram",
+
+        "url": "https://balajirajaram.wikiseo.in/",
+
+        "jobTitle": "B2B Technology Marketing Professional",
+
+        "sameAs": [
+          "https://www.linkedin.com/in/balajir-demandgeneration/",
+          "https://www.youtube.com/@balajirajaramseo"
+        ]
+      },
+
+
+      {
+        "@type": "Article",
+
+        "@id": "https://balajirajaram.wikiseo.in/seo-aeo-geo-trends/10-ai-search-optimization-principles-any-website#article",
+
+        "headline": "10 AI Search Optimization Principles for Any Website",
+
+        "description": "Learn 10 AI Search Optimization principles for any website, covering SEO, AEO, GEO, answer-first content, entities, semantic relationships, evidence, structured data, freshness and LLM discoverability.",
+
+        "url": "https://balajirajaram.wikiseo.in/seo-aeo-geo-trends/10-ai-search-optimization-principles-any-website",
+
+        "datePublished": "2026-10-03",
+
+        "dateModified": "2026-10-03",
+
+        "inLanguage": "en-IN",
+
+        "author": {
+          "@id": "https://balajirajaram.wikiseo.in/#person"
+        },
+
+        "publisher": {
+          "@id": "https://balajirajaram.wikiseo.in/#person"
+        },
+
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://balajirajaram.wikiseo.in/seo-aeo-geo-trends/10-ai-search-optimization-principles-any-website"
+        },
+
+        "keywords": [
+          "AI Search Optimization",
+          "AI search optimization principles",
+          "AI SEO",
+          "AEO",
+          "GEO",
+          "LLM discoverability",
+          "generative search",
+          "AI search visibility",
+          "answer engine optimization",
+          "generative engine optimization",
+          "semantic SEO",
+          "entity SEO"
+        ]
+      },
+
+
+      {
+        "@type": "ItemList",
+
+        "@id": "https://balajirajaram.wikiseo.in/seo-aeo-geo-trends/10-ai-search-optimization-principles-any-website#principles",
+
+        "name": "10 AI Search Optimization Principles for Any Website",
+
+        "numberOfItems": 10,
+
+        "itemListElement": [
+
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Make the website technically discoverable"
+          },
+
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Answer the user's question directly"
+          },
+
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "Create atomic and independently understandable content",
+            "name": "Create atomic and independently understandable content"
+          },
+
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Build clear entity and semantic relationships"
+          },
+
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Demonstrate expertise and provide evidence"
+          },
+
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Build topical depth and logical content architecture"
+          },
+
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Use structured data and explicit machine-readable context"
+          },
+
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "Optimize content for multimodal and conversational search"
+          },
+
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "name": "Keep important information accurate and current"
+          },
+
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "name": "Measure AI Search visibility and continuously improve"
+          }
+
+        ]
+      },
+
+
+      {
+        "@type": "BreadcrumbList",
+
+        "@id": "https://balajirajaram.wikiseo.in/seo-aeo-geo-trends/10-ai-search-optimization-principles-any-website#breadcrumb",
+
+        "itemListElement": [
+
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://balajirajaram.wikiseo.in/"
+          },
+
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "SEO, AEO & GEO Trends",
+            "item": "https://balajirajaram.wikiseo.in/seo-aeo-geo-trends/"
+          },
+
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "10 AI Search Optimization Principles for Any Website",
+            "item": "https://balajirajaram.wikiseo.in/seo-aeo-geo-trends/10-ai-search-optimization-principles-any-website"
+          }
+
+        ]
+      },
+
+
+      {
+        "@type": "FAQPage",
+
+        "@id": "https://balajirajaram.wikiseo.in/seo-aeo-geo-trends/10-ai-search-optimization-principles-any-website#faq",
+
+        "mainEntity": [
+
+          {
+            "@type": "Question",
+
+            "name": "What is AI Search Optimization?",
+
+            "acceptedAnswer": {
+              "@type": "Answer",
+
+              "text": "AI Search Optimization is the practice of improving a website's technical discoverability, content clarity, entity understanding, semantic relevance, evidence, and machine-readable context so its information can be discovered and used in AI-powered search experiences."
+            }
+          },
+
+
+          {
+            "@type": "Question",
+
+            "name": "What are the 10 AI Search Optimization principles?",
+
+            "acceptedAnswer": {
+              "@type": "Answer",
+
+              "text": "The 10 principles are technical discoverability, direct answers, atomic content, entity and semantic relationships, expertise and evidence, topical depth, structured data, multimodal and conversational optimization, content freshness, and AI Search measurement."
+            }
+          },
+
+
+          {
+            "@type": "Question",
+
+            "name": "Is AI Search Optimization the same as SEO?",
+
+            "acceptedAnswer": {
+              "@type": "Answer",
+
+              "text": "AI Search Optimization overlaps with SEO but has a broader focus on how information can be understood, retrieved, synthesized, cited, and represented in AI-powered search experiences. Technical SEO and content SEO remain important foundations."
+            }
+          },
+
+
+          {
+            "@type": "Question",
+
+            "name": "How does AEO fit into AI Search Optimization?",
+
+            "acceptedAnswer": {
+              "@type": "Answer",
+
+              "text": "AEO, or Answer Engine Optimization, focuses on providing clear and direct answers to user questions. Answer-first and atomic content are therefore important components of AI Search Optimization."
+            }
+          },
+
+
+          {
+            "@type": "Question",
+
+            "name": "How does GEO fit into AI Search Optimization?",
+
+            "acceptedAnswer": {
+              "@type": "Answer",
+
+              "text": "GEO, or Generative Engine Optimization, focuses on improving how content and entities can participate in generative AI search experiences, including discovery, retrieval, context, grounding, citation and representation."
+            }
+          },
+
+
+          {
+            "@type": "Question",
+
+            "name": "What is LLM discoverability?",
+
+            "acceptedAnswer": {
+              "@type": "Answer",
+
+              "text": "LLM discoverability refers to how easily information about a website, organization, person, product, service, or concept can be discovered and correctly represented by AI systems that retrieve and synthesize information."
+            }
+          },
+
+
+          {
+            "@type": "Question",
+
+            "name": "Can any website use AI Search Optimization?",
+
+            "acceptedAnswer": {
+              "@type": "Answer",
+
+              "text": "Yes. The principles can be applied to business websites, SaaS websites, ecommerce websites, publisher websites, personal websites, nonprofit websites, local businesses, professional services websites, and technology websites."
+            }
+          },
+
+
+          {
+            "@type": "Question",
+
+            "name": "Does structured data guarantee AI Search visibility?",
+
+            "acceptedAnswer": {
+              "@type": "Answer",
+
+              "text": "No. Structured data can provide machine-readable context and help search engines understand content, but it does not guarantee inclusion, rankings, citations, or mentions in AI-generated answers."
+            }
+          }
+
+        ]
+      }
+
+    ]
+  }
+
+  </script>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+  <div class="nav-container">
+
+    <nav aria-label="Primary navigation">
+
+      <a class="logo"
+         href="https://balajirajaram.wikiseo.in/">
+        BALAJI RAJARAM
+      </a>
+
+      <ul class="nav-links">
+
+        <li>
+          <a href="https://balajirajaram.wikiseo.in/">
+            About
+          </a>
+        </li>
+
+        <li>
+          <a href="https://balajirajaram.wikiseo.in/seo-aeo-geo-trends/">
+            SEO, AEO &amp; GEO Trends
+          </a>
+        </li>
+
+        <li>
+          <a href="#principles">
+            10 Principles
+          </a>
+        </li>
+
+        <li>
+          <a href="#framework">
+            Framework
+          </a>
+        </li>
+
+        <li>
+          <a href="#faq">
+            FAQ
+          </a>
+        </li>
+
+      </ul>
+
+    </nav>
+
+  </div>
+
+</header>
+
+
+<main>
+
+
+  <!-- HERO -->
+
+  <section class="hero">
+
+    <div class="hero-inner">
+
+      <span class="eyebrow">
+        AI Search • SEO • AEO • GEO • LLM Discoverability
+      </span>
+
+      <h1>
+        10 AI Search Optimization Principles for Any Website
+      </h1>
+
+      <p class="hero-description">
+
+        A practical framework for making websites easier to
+        discover, understand, retrieve, cite and represent across
+        modern search engines and AI-powered search experiences.
+
+      </p>
+
+      <p class="meta">
+
+        Published:
+        <time datetime="2026-10-03">
+          October 3, 2026
+        </time>
+
+        · Updated:
+        <time datetime="2026-10-03">
+          October 3, 2026
+        </time>
+
+        · By
+
+        <a href="https://balajirajaram.wikiseo.in/">
+          Balaji Rajaram
+        </a>
+
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <div class="container">
+
+
+    <!-- BLUF -->
+
+    <div class="bluf">
+
+      <strong>
+        BLUF — Bottom Line Up Front:
+      </strong>
+
+      <p>
+
+        AI Search Optimization is not a replacement for SEO.
+        It is a broader approach that combines technical SEO,
+        answer-first content, entity clarity, semantic relationships,
+        evidence, structured information, topical depth and
+        continuous measurement.
+
+      </p>
+
+      <p>
+
+        The core principle is simple:
+
+        <strong>
+          Make your website easy for search engines and AI systems
+          to discover, understand, retrieve, verify and represent.
+        </strong>
+
+      </p>
+
+    </div>
+
+
+    <!-- INTRODUCTION -->
+
+    <section id="introduction">
+
+      <h2>
+        What Is AI Search Optimization?
+      </h2>
+
+      <p>
+
+        <strong>AI Search Optimization</strong> is the practice of
+        improving a website so that its information can be more
+        easily discovered, understood, retrieved and represented
+        in AI-powered search experiences.
+
+      </p>
+
+      <p>
+
+        It builds on traditional
+        <strong>Search Engine Optimization (SEO)</strong>,
+        <strong>Answer Engine Optimization (AEO)</strong> and
+        <strong>Generative Engine Optimization (GEO)</strong>.
+
+      </p>
+
+      <p>
+
+        Traditional SEO provides the technical and content foundation.
+        AEO emphasizes direct answers. GEO focuses on visibility in
+        generative search experiences. LLM discoverability adds a
+        broader consideration: whether AI systems can identify,
+        understand and accurately represent entities and information.
+
+      </p>
+
+      <p>
+
+        The result is a connected optimization model rather than
+        four separate disciplines.
+
+      </p>
+
+    </section>
+
+
+    <!-- TOC -->
+
+    <nav class="toc"
+         aria-label="Table of contents">
+
+      <h2>
+        10 AI Search Optimization Principles
+      </h2>
+
+      <ol>
+
+        <li>
+          <a href="#principle-1">
+            Make the website technically discoverable
+          </a>
+        </li>
+
+        <li>
+          <a href="#principle-2">
+            Answer the user's question directly
+          </a>
+        </li>
+
+        <li>
+          <a href="#principle-3">
+            Create atomic and independently understandable content
+          </a>
+        </li>
+
+        <li>
+          <a href="#principle-4">
+            Build clear entity and semantic relationships
+          </a>
+        </li>
+
+        <li>
+          <a href="#principle-5">
+            Demonstrate expertise and provide evidence
+          </a>
+        </li>
+
+        <li>
+          <a href="#principle-6">
+            Build topical depth and logical content architecture
+          </a>
+        </li>
+
+        <li>
+          <a href="#principle-7">
+            Use structured data and explicit machine-readable context
+          </a>
+        </li>
+
+        <li>
+          <a href="#principle-8">
+            Optimize for multimodal and conversational search
+          </a>
+        </li>
+
+        <li>
+          <a href="#principle-9">
+            Keep important information accurate and current
+          </a>
+        </li>
+
+        <li>
+          <a href="#principle-10">
+            Measure AI Search visibility and continuously improve
+          </a>
+        </li>
+
+      </ol>
+
+    </nav>
+
+
+    <!-- PRINCIPLES -->
+
+    <section id="principles">
+
+      <h2>
+        10 AI Search Optimization Principles
+      </h2>
+
+
+      <!-- PRINCIPLE 1 -->
+
+      <article class="principle"
+               id="principle-1">
+
+        <span class="principle-number">
+          Principle #1
+        </span>
+
+        <h3>
+          Make the Website Technically Discoverable
+        </h3>
+
+        <div class="answer">
+
+          <strong>
+            Answer:
+          </strong>
+
+          <p>
+
+            AI Search optimization starts with the same technical
+            foundation as SEO: search engines and other authorized
+            systems must be able to access, crawl and understand
+            the website.
+
+          </p>
+
+        </div>
+
+        <p>
+
+          Content cannot contribute to search visibility if important
+          pages are blocked, inaccessible, poorly linked or incorrectly
+          canonicalized.
+
+        </p>
+
+        <p>
+          Important technical foundations include:
+        </p>
+
+        <ul>
+
+          <li>
+            Crawlable URLs
+          </li>
+
+          <li>
+            Indexable pages
+          </li>
+
+          <li>
+            Logical site architecture
+          </li>
+
+          <li>
+            XML sitemaps
+          </li>
+
+          <li>
+            Correct canonical URLs
+          </li>
+
+          <li>
+            Useful internal links
+          </li>
+
+          <li>
+            Appropriate robots directives
+          </li>
+
+          <li>
+            Fast and usable pages
+          </li>
+
+          <li>
+            Clean URL structures
+          </li>
+
+        </ul>
+
+        <div class="action">
+
+          <strong>
+            AI Search action:
+          </strong>
+
+          Audit the website as a discoverability system before
+          trying to optimize individual pages for AI answers.
+
+        </div>
+
+      </article>
+
+
+      <!-- PRINCIPLE 2 -->
+
+      <article class="principle"
+               id="principle-2">
+
+        <span class="principle-number">
+          Principle #2
+        </span>
+
+        <h3>
+          Answer the User's Question Directly
+        </h3>
+
+        <div class="answer">
+
+          <strong>
+            Answer:
+          </strong>
+
+          <p>
+
+            Put the direct answer near the beginning of the relevant
+            section before expanding into supporting details.
+
+          </p>
+
+        </div>
+
+        <p>
+
+          This is the core of
+          <strong>answer-first content</strong>.
+
+          It improves human comprehension and creates clearer
+          information units for search and AI systems to interpret.
+
+        </p>
+
+        <div class="example">
+
+          <strong>
+            Weak:
+          </strong>
+
+          <p>
+
+            "In today's rapidly changing digital environment,
+            organizations are increasingly exploring..."
+
+          </p>
+
+          <strong>
+            Answer-first:
+          </strong>
+
+          <p>
+
+            "AI Search Optimization improves how website information
+            can be discovered and understood in AI-powered search."
+
+          </p>
+
+        </div>
+
+        <div class="action">
+
+          <strong>
+            AEO action:
+          </strong>
+
+          Start important sections with a concise,
+          declarative answer before providing context.
+
+        </div>
+
+      </article>
+
+
+      <!-- PRINCIPLE 3 -->
+
+      <article class="principle"
+               id="principle-3">
+
+        <span class="principle-number">
+          Principle #3
+        </span>
+
+        <h3>
+          Create Atomic and Independently Understandable Content
+        </h3>
+
+        <div class="answer">
+
+          <strong>
+            Answer:
+          </strong>
+
+          <p>
+
+            Atomic content communicates one clear idea in a compact
+            information unit that can be understood without relying
+            on unrelated surrounding paragraphs.
+
+          </p>
+
+        </div>
+
+        <p>
+
+          Large paragraphs often combine definitions, examples,
+          opinions, history and conclusions.
+
+          Atomic writing separates these concepts into clearer
+          information units.
+
+        </p>
+
+        <div class="example">
+
+          <strong>
+            Atomic structure:
+          </strong>
+
+          <p>
+            <strong>Definition:</strong>
+            GEO optimizes content for generative search visibility.
+          </p>
+
+          <p>
+            <strong>Purpose:</strong>
+            GEO helps content become useful source material for
+            generative search systems.
+          </p>
+
+          <p>
+            <strong>Example:</strong>
+            A B2B software page can explain its product,
+            use cases, integrations and customer outcomes separately.
+          </p>
+
+        </div>
+
+        <div class="action">
+
+          <strong>
+            GEO action:
+          </strong>
+
+          Give each paragraph, heading and answer a clear semantic job.
+
+        </div>
+
+      </article>
+
+
+      <!-- PRINCIPLE 4 -->
+
+      <article class="principle"
+               id="principle-4">
+
+        <span class="principle-number">
+          Principle #4
+        </span>
+
+        <h3>
+          Build Clear Entity and Semantic Relationships
+        </h3>
+
+        <div class="answer">
+
+          <strong>
+            Answer:
+          </strong>
+
+          <p>
+
+            Clearly identify people, organizations, products,
+            services, technologies, locations, industries and
+            concepts, then explain how those entities relate.
+
+          </p>
+
+        </div>
+
+        <p>
+
+          Entity-rich content is more useful than content that
+          repeatedly inserts generic keywords.
+
+        </p>
+
+        <p>
+
+          For example:
+
+        </p>
+
+        <p>
+
+          <strong>
+            Generative AI
+            → Enterprise AI
+            → Conversational AI
+            → Customer Support
+            → Financial Services
+          </strong>
+
+        </p>
+
+        <p>
+
+          This relationship explains a topic.
+          Simply repeating the words
+          "AI," "business" and "technology" does not.
+
+        </p>
+
+        <div class="action">
+
+          <strong>
+            GEO action:
+          </strong>
+
+          Ask four questions for important entities:
+          <strong>What is it? Who uses it? What does it relate to?
+          What problem does it solve?</strong>
+
+        </div>
+
+      </article>
+
+
+      <!-- PRINCIPLE 5 -->
+
+      <article class="principle"
+               id="principle-5">
+
+        <span class="principle-number">
+          Principle #5
+        </span>
+
+        <h3>
+          Demonstrate Expertise and Provide Evidence
+        </h3>
+
+        <div class="answer">
+
+          <strong>
+            Answer:
+          </strong>
+
+          <p>
+
+            Original experience, evidence and first-hand expertise
+            make content more useful and distinguish it from
+            generic summaries.
+
+          </p>
+
+        </div>
+
+        <p>
+
+          Strong evidence can include:
+
+        </p>
+
+        <ul>
+
+          <li>
+            Original research
+          </li>
+
+          <li>
+            First-hand implementation experience
+          </li>
+
+          <li>
+            Case studies
+          </li>
+
+          <li>
+            Documented results
+          </li>
+
+          <li>
+            Experiments
+          </li>
+
+          <li>
+            Screenshots
+          </li>
+
+          <li>
+            Product documentation
+          </li>
+
+          <li>
+            Primary sources
+          </li>
+
+          <li>
+            Attributable data
+          </li>
+
+        </ul>
+
+        <div class="example">
+
+          <strong>
+            Example:
+          </strong>
+
+          <p>
+
+            Instead of writing "technical SEO can improve website
+            performance," document the actual technical issue,
+            implementation, methodology and observed result when
+            you have legitimate evidence.
+
+          </p>
+
+        </div>
+
+        <div class="action">
+
+          <strong>
+            GEO action:
+          </strong>
+
+          Replace generic claims with verifiable evidence and
+          first-hand experience wherever possible.
+
+        </div>
+
+      </article>
+
+
+      <!-- PRINCIPLE 6 -->
+
+      <article class="principle"
+               id="principle-6">
+
+        <span class="principle-number">
+          Principle #6
+        </span>
+
+        <h3>
+          Build Topical Depth and Logical Content Architecture
+        </h3>
+
+        <div class="answer">
+
+          <strong>
+            Answer:
+          </strong>
+
+          <p>
+
+            A website should cover important topics through
+            connected pages rather than isolated articles.
+
+          </p>
+
+        </div>
+
+        <p>
+
+          A strong topical architecture can connect:
+
+        </p>
+
+        <p>
+
+          <strong>
+            SEO
+            → AEO
+            → GEO
+            → AI Search
+            → LLM Discoverability
+            → Entity SEO
+            → Semantic Search
+            → Technical SEO
+          </strong>
+
+        </p>
+
+        <p>
+
+          Each page should have a clear purpose and relationship
+          with related pages.
+
+        </p>
+
+        <div class="action">
+
+          <strong>
+            SEO + GEO action:
+          </strong>
+
+          Create pillar pages, supporting pages and contextual
+          internal links around important entities and topics.
+
+        </div>
+
+      </article>
+
+
+      <!-- PRINCIPLE 7 -->
+
+      <article class="principle"
+               id="principle-7">
+
+        <span class="principle-number">
+          Principle #7
+        </span>
+
+        <h3>
+          Use Structured Data and Explicit Machine-Readable Context
+        </h3>
+
+        <div class="answer">
+
+          <strong>
+            Answer:
+          </strong>
+
+          <p>
+
+            Structured data provides machine-readable information
+            about the content and entities represented on a page.
+
+          </p>
+
+        </div>
+
+        <p>
+
+          Depending on the page, relevant Schema.org types can include:
+
+        </p>
+
+        <ul>
+
+          <li>
+            Article
+          </li>
+
+          <li>
+            Person
+          </li>
+
+          <li>
+            Organization
+          </li>
+
+          <li>
+            Product
+          </li>
+
+          <li>
+            Service
+          </li>
+
+          <li>
+            BreadcrumbList
+          </li>
+
+          <li>
+            FAQPage where appropriate
+          </li>
+
+        </ul>
+
+        <p>
+
+          Structured data should accurately describe visible content.
+          It should not be used to create claims that are not present
+          on the page.
+
+        </p>
+
+        <div class="action">
+
+          <strong>
+            Important:
+          </strong>
+
+          Structured data can help communicate machine-readable
+          context, but it does not guarantee rankings, AI citations,
+          AI mentions or inclusion in generative answers.
+
+        </div>
+
+      </article>
+
+
+      <!-- PRINCIPLE 8 -->
+
+      <article class="principle"
+               id="principle-8">
+
+        <span class="principle-number">
+          Principle #8
+        </span>
+
+        <h3>
+          Optimize for Multimodal and Conversational Search
+        </h3>
+
+        <div class="answer">
+
+          <strong>
+            Answer:
+          </strong>
+
+          <p>
+
+            Modern search can involve natural-language questions,
+            images, video and other multimodal interactions.
+
+          </p>
+
+        </div>
+
+        <p>
+
+          Websites should therefore connect text with meaningful
+          visual and multimedia context.
+
+        </p>
+
+        <ul>
+
+          <li>
+            Descriptive image filenames
+          </li>
+
+          <li>
+            Useful alternative text
+          </li>
+
+          <li>
+            Relevant image captions
+          </li>
+
+          <li>
+            Descriptive video titles
+          </li>
+
+          <li>
+            Video transcripts
+          </li>
+
+          <li>
+            Supporting page context
+          </li>
+
+          <li>
+            Natural-language question coverage
+          </li>
+
+        </ul>
+
+        <div class="action">
+
+          <strong>
+            AI Search action:
+          </strong>
+
+          Treat every important image, video and visual asset as
+          part of the page's overall entity and topic context.
+
+        </div>
+
+      </article>
+
+
+      <!-- PRINCIPLE 9 -->
+
+      <article class="principle"
+               id="principle-9">
+
+        <span class="principle-number">
+          Principle #9
+        </span>
+
+        <h3>
+          Keep Important Information Accurate and Current
+        </h3>
+
+        <div class="answer">
+
+          <strong>
+            Answer:
+          </strong>
+
+          <p>
+
+            Important pages should reflect the current state of
+            products, services, technologies, organizations,
+            statistics and other changing information.
+
+          </p>
+
+        </div>
+
+        <p>
+
+          This is especially important for topics such as:
+
+        </p>
+
+        <ul>
+
+          <li>
+            AI tools
+          </li>
+
+          <li>
+            Software products
+          </li>
+
+          <li>
+            Pricing
+          </li>
+
+          <li>
+            Product features
+          </li>
+
+          <li>
+            Search algorithms
+          </li>
+
+          <li>
+            Technology standards
+          </li>
+
+          <li>
+            Company information
+          </li>
+
+          <li>
+            Market data
+          </li>
+
+        </ul>
+
+        <div class="action">
+
+          <strong>
+            GEO action:
+          </strong>
+
+          Review high-value pages periodically and update claims,
+          examples, references, screenshots and dates when the
+          underlying information changes.
+
+        </div>
+
+      </article>
+
+
+      <!-- PRINCIPLE 10 -->
+
+      <article class="principle"
+               id="principle-10">
+
+        <span class="principle-number">
+          Principle #10
+        </span>
+
+        <h3>
+          Measure AI Search Visibility and Continuously Improve
+        </h3>
+
+        <div class="answer">
+
+          <strong>
+            Answer:
+          </strong>
+
+          <p>
+
+            AI Search optimization should be measured using both
+            conventional search metrics and emerging AI visibility
+            signals where reliable data is available.
+
+          </p>
+
+        </div>
+
+        <p>
+          Traditional SEO measurement can include:
+        </p>
+
+        <ul>
+
+          <li>
+            Organic impressions
+          </li>
+
+          <li>
+            Organic clicks
+          </li>
+
+          <li>
+            Rankings
+          </li>
+
+          <li>
+            Indexed pages
+          </li>
+
+          <li>
+            Organic conversions
+          </li>
+
+        </ul>
+
+        <p>
+          AI Search measurement can additionally consider:
+        </p>
+
+        <ul>
+
+          <li>
+            AI citations
+          </li>
+
+          <li>
+            Cited URLs
+          </li>
+
+          <li>
+            AI visibility by topic
+          </li>
+
+          <li>
+            Brand or entity mentions
+          </li>
+
+          <li>
+            Grounding queries where reporting is available
+          </li>
+
+          <li>
+            AI referral traffic
+          </li>
+
+          <li>
+            Qualified leads and conversions influenced by
+            AI-assisted discovery
+          </li>
+
+        </ul>
+
+        <div class="action">
+
+          <strong>
+            Measurement principle:
+          </strong>
+
+          Do not optimize for AI visibility as an isolated vanity
+          metric. Connect visibility signals to content quality,
+          qualified traffic and business outcomes.
+
+        </div>
+
+      </article>
+
+    </section>
+
+
+    <!-- FIVE CORE CONTENT PRINCIPLES -->
+
+    <section id="five-content-principles">
+
+      <h2>
+        Five Content Principles for AI Search
+      </h2>
+
+      <p>
+
+        Across SEO, AEO and GEO, five writing principles provide
+        a useful operating model for creating AI-search-friendly
+        content.
+
+      </p>
+
+      <div class="principle-grid">
+
+        <div class="principle-card">
+
+          <h3>
+            BLUF
+          </h3>
+
+          <p>
+
+            <strong>
+              Bottom Line Up Front.
+            </strong>
+
+            Give the direct answer before the supporting explanation.
+
+          </p>
+
+        </div>
+
+
+        <div class="principle-card">
+
+          <h3>
+            Atomic
+          </h3>
+
+          <p>
+
+            Communicate one clear idea per information unit.
+
+          </p>
+
+        </div>
+
+
+        <div class="principle-card">
+
+          <h3>
+            Entity-Rich
+          </h3>
+
+          <p>
+
+            Name relevant people, companies, products, technologies,
+            industries and concepts precisely.
+
+          </p>
+
+        </div>
+
+
+        <div class="principle-card">
+
+          <h3>
+            Semantic
+          </h3>
+
+          <p>
+
+            Explain relationships between entities instead of
+            relying on disconnected keyword mentions.
+
+          </p>
+
+        </div>
+
+
+        <div class="principle-card">
+
+          <h3>
+            GEO/AEO Value
+          </h3>
+
+          <p>
+
+            Structure content so it provides direct answers,
+            contextual depth and useful source information.
+
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- FRAMEWORK -->
+
+    <section id="framework">
+
+      <h2>
+        AI Search Optimization Framework
+      </h2>
+
+      <div class="framework">
+
+        <ol>
+
+          <li>
+
+            <strong>
+              Discover:
+            </strong>
+
+            Make the website technically accessible and crawlable.
+
+          </li>
+
+          <li>
+
+            <strong>
+              Understand:
+            </strong>
+
+            Define entities, topics, relationships and intent clearly.
+
+          </li>
+
+          <li>
+
+            <strong>
+              Answer:
+            </strong>
+
+            Provide direct, declarative answers.
+
+          </li>
+
+          <li>
+
+            <strong>
+              Expand:
+            </strong>
+
+            Add semantic depth, examples, context and related questions.
+
+          </li>
+
+          <li>
+
+            <strong>
+              Evidence:
+            </strong>
+
+            Support important claims with credible sources or
+            first-hand evidence.
+
+          </li>
+
+          <li>
+
+            <strong>
+              Structure:
+            </strong>
+
+            Use headings, internal links, lists and appropriate
+            structured data.
+
+          </li>
+
+          <li>
+
+            <strong>
+              Connect:
+            </strong>
+
+            Build a logical topical architecture across related pages.
+
+          </li>
+
+          <li>
+
+            <strong>
+              Update:
+            </strong>
+
+            Maintain important information as facts change.
+
+          </li>
+
+          <li>
+
+            <strong>
+              Measure:
+            </strong>
+
+            Monitor organic performance and available AI visibility
+            signals.
+
+          </li>
+
+          <li>
+
+            <strong>
+              Improve:
+            </strong>
+
+            Use observed performance and user needs to refine the
+            content architecture.
+
+          </li>
+
+        </ol>
+
+      </div>
+
+    </section>
+
+
+    <!-- SEO AEO GEO RELATIONSHIP -->
+
+    <section id="seo-aeo-geo">
+
+      <h2>
+        How SEO, AEO, GEO and AI Search Fit Together
+      </h2>
+
+      <div class="framework">
+
+        <p>
+
+          <strong>
+            SEO
+          </strong>
+          provides the foundation for organic discoverability,
+          crawlability, indexability and search relevance.
+
+        </p>
+
+        <p>
+
+          <strong>
+            AEO
+          </strong>
+          focuses on direct answers to user questions.
+
+        </p>
+
+        <p>
+
+          <strong>
+            GEO
+          </strong>
+          focuses on participation in generative search experiences,
+          including retrieval, context, grounding and citation.
+
+        </p>
+
+        <p>
+
+          <strong>
+            AI Search Optimization
+          </strong>
+          brings these disciplines together into a broader framework
+          for AI-mediated discovery and information retrieval.
+
+        </p>
+
+        <p>
+
+          <strong>
+            LLM Discoverability
+          </strong>
+          focuses on whether important entities and information can
+          be discovered and accurately represented by AI systems.
+
+        </p>
+
+        <p>
+
+          The relationship can be summarized as:
+
+        </p>
+
+        <p>
+
+          <strong>
+            SEO
+            → AEO
+            → GEO
+            → AI Search
+            → LLM Discoverability
+          </strong>
+
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- CHECKLIST -->
+
+    <section id="checklist">
+
+      <h2>
+        AI Search Optimization Checklist
+      </h2>
+
+      <ul class="checklist">
+
+        <li>
+          ✓ Can search engines crawl the important pages?
+        </li>
+
+        <li>
+          ✓ Are important pages indexable?
+        </li>
+
+        <li>
+          ✓ Does each page have a clear primary topic?
+        </li>
+
+        <li>
+          ✓ Is the direct answer easy to find?
+        </li>
+
+        <li>
+          ✓ Are paragraphs atomic and independently understandable?
+        </li>
+
+        <li>
+          ✓ Are important entities explicitly identified?
+        </li>
+
+        <li>
+          ✓ Are semantic relationships explained?
+        </li>
+
+        <li>
+          ✓ Does the content demonstrate real expertise?
+        </li>
+
+        <li>
+          ✓ Are important claims supported by evidence?
+        </li>
+
+        <li>
+          ✓ Does the website have strong topical architecture?
+        </li>
+
+        <li>
+          ✓ Are internal links meaningful and contextual?
+        </li>
+
+        <li>
+          ✓ Is structured data accurate?
+        </li>
+
+        <li>
+          ✓ Is multimedia supported by useful contextual information?
+        </li>
+
+        <li>
+          ✓ Is important information current?
+        </li>
+
+        <li>
+          ✓ Are organic and AI visibility signals being measured?
+        </li>
+
+      </ul>
+
+    </section>
+
+
+    <!-- WHO CAN USE -->
+
+    <section id="who-can-use">
+
+      <h2>
+        Who Can Use These AI Search Optimization Principles?
+      </h2>
+
+      <p>
+
+        These principles can be applied to almost any website where
+        discoverability and information retrieval matter.
+
+      </p>
+
+      <ul>
+
+        <li>
+          B2B technology websites
+        </li>
+
+        <li>
+          SaaS websites
+        </li>
+
+        <li>
+          Ecommerce websites
+        </li>
+
+        <li>
+          Professional services websites
+        </li>
+
+        <li>
+          IT services websites
+        </li>
+
+        <li>
+          Publisher and media websites
+        </li>
+
+        <li>
+          Personal websites
+        </li>
+
+        <li>
+          Consultant websites
+        </li>
+
+        <li>
+          Local business websites
+        </li>
+
+        <li>
+          Nonprofit websites
+        </li>
+
+        <li>
+          Educational websites
+        </li>
+
+        <li>
+          Software product websites
+        </li>
+
+      </ul>
+
+    </section>
+
+
+    <!-- AUTHOR -->
+
+    <section id="author">
+
+      <div class="author">
+
+        <h2>
+          About Balaji Rajaram
+        </h2>
+
+        <p>
+
+          <strong>
+            Balaji Rajaram
+          </strong>
+          is a B2B Technology Marketing professional with experience
+          across integrated marketing, SEO, demand generation,
+          digital growth, content strategy, AI-powered marketing,
+          AEO, GEO and LLM discoverability.
+
+        </p>
+
+        <p>
+
+          His work includes website transformation, technical SEO,
+          enterprise SEO, content strategy, AI-assisted content
+          workflows, demand generation and search optimization for
+          technology and IT services organizations.
+
+        </p>
+
+        <p>
+
+          <a href="https://balajirajaram.wikiseo.in/chimera-technologies-marketing-portfolio">
+
+            View the Chimera Technologies Marketing Portfolio →
+
+          </a>
+
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- RELATED -->
+
+    <section id="related">
+
+      <h2>
+        Related SEO, AEO &amp; GEO Content
+      </h2>
+
+      <div class="related">
+
+        <a href="https://balajirajaram.wikiseo.in/seo-aeo-geo-trends/">
+
+          <strong>
+            SEO, AEO &amp; GEO Trends 2026
+          </strong>
+
+          <br>
+
+          Explore the broader SEO, AEO, GEO and AI Search topic cluster.
+
+        </a>
+
+
+        <a href="https://balajirajaram.wikiseo.in/seo-aeo-geo-trends/15-aeo-trends-answer-first-search-2026">
+
+          <strong>
+            15 AEO Trends Changing Answer-First Search
+          </strong>
+
+          <br>
+
+          Explore answer-first content, atomic content and
+          answer engine optimization.
+
+        </a>
+
+
+        <a href="https://balajirajaram.wikiseo.in/seo-aeo-geo-trends/15-geo-trends-generative-search-visibility-2026">
+
+          <strong>
+            15 GEO Trends for Generative Search Visibility
+          </strong>
+
+          <br>
+
+          Explore generative search visibility, citations,
+          grounding, entities and AI search.
+
+        </a>
+
+
+        <a href="https://balajirajaram.wikiseo.in/">
+
+          <strong>
+            Balaji Rajaram Portfolio
+          </strong>
+
+          <br>
+
+          Explore B2B technology marketing, SEO and digital growth
+          experience.
+
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- FAQ -->
+
+    <section id="faq">
+
+      <h2>
+        AI Search Optimization FAQ
+      </h2>
+
+
+      <div class="faq-item">
+
+        <h3>
+          What is AI Search Optimization?
+        </h3>
+
+        <p>
+
+          AI Search Optimization is the practice of improving a
+          website's technical discoverability, content clarity,
+          entity understanding, semantic relevance, evidence and
+          machine-readable context so its information can be
+          discovered and used in AI-powered search experiences.
+
+        </p>
+
+      </div>
+
+
+      <div class="faq-item">
+
+        <h3>
+          What are the 10 AI Search Optimization principles?
+        </h3>
+
+        <p>
+
+          The 10 principles are technical discoverability,
+          direct answers, atomic content, entity and semantic
+          relationships, expertise and evidence, topical depth,
+          structured data, multimodal and conversational optimization,
+          content freshness and AI Search measurement.
+
+        </p>
+
+      </div>
+
+
+      <div class="faq-item">
+
+        <h3>
+          Is AI Search Optimization the same as SEO?
+        </h3>
+
+        <p>
+
+          AI Search Optimization overlaps with SEO but has a broader
+          focus on how information can be understood, retrieved,
+          synthesized, cited and represented in AI-powered search
+          experiences. Technical SEO and content SEO remain important
+          foundations.
+
+        </p>
+
+      </div>
+
+
+      <div class="faq-item">
+
+        <h3>
+          How does AEO fit into AI Search Optimization?
+        </h3>
+
+        <p>
+
+          AEO, or Answer Engine Optimization, focuses on providing
+          clear and direct answers to user questions. Answer-first
+          and atomic content are therefore important components of
+          AI Search Optimization.
+
+        </p>
+
+      </div>
+
+
+      <div class="faq-item">
+
+        <h3>
+          How does GEO fit into AI Search Optimization?
+        </h3>
+
+        <p>
+
+          GEO, or Generative Engine Optimization, focuses on improving
+          how content and entities can participate in generative AI
+          search experiences, including discovery, retrieval,
+          context, grounding, citation and representation.
+
+        </p>
+
+      </div>
+
+
+      <div class="faq-item">
+
+        <h3>
+          What is LLM discoverability?
+        </h3>
+
+        <p>
+
+          LLM discoverability refers to how easily information about
+          a website, organization, person, product, service or concept
+          can be discovered and correctly represented by AI systems
+          that retrieve and synthesize information.
+
+        </p>
+
+      </div>
+
+
+      <div class="faq-item">
+
+        <h3>
+          Can any website use AI Search Optimization?
+        </h3>
+
+        <p>
+
+          Yes. The principles can be applied to business websites,
+          SaaS websites, ecommerce websites, publisher websites,
+          personal websites, nonprofit websites, local businesses,
+          professional services websites and technology websites.
+
+        </p>
+
+      </div>
+
+
+      <div class="faq-item">
+
+        <h3>
+          Does structured data guarantee AI Search visibility?
+        </h3>
+
+        <p>
+
+          No. Structured data can provide machine-readable context
+          and help search engines understand content, but it does
+          not guarantee inclusion, rankings, citations or mentions
+          in AI-generated answers.
+
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- SOURCES -->
+
+    <section id="sources">
+
+      <h2>
+        Sources &amp; Further Reading
+      </h2>
+
+      <ul class="sources">
+
+        <li>
+          Google Search Central — AI and generative search guidance
+        </li>
+
+        <li>
+          Google Search Central — Creating helpful, reliable,
+          people-first content
+        </li>
+
+        <li>
+          Google Search Central — Search appearance and structured data
+        </li>
+
+        <li>
+          Google Search Central — Multimodal Search documentation
+        </li>
+
+        <li>
+          Microsoft Bing — AI Performance in Bing Webmaster Tools
+        </li>
+
+        <li>
+          Microsoft Bing — AI Visibility Insights
+        </li>
+
+        <li>
+          Schema.org — Structured data vocabulary
+        </li>
+
+      </ul>
+
+    </section>
+
+
+    <!-- PAGE INFORMATION -->
+
+    <section id="page-info">
+
+      <h2>
+        Page Information
+      </h2>
+
+      <p>
+        <strong>
+          Primary topic:
+        </strong>
+        AI Search Optimization
+      </p>
+
+      <p>
+        <strong>
+          Primary keyword:
+        </strong>
+        AI Search Optimization
+      </p>
+
+      <p>
+        <strong>
+          Related entities:
+        </strong>
+        SEO, AEO, GEO, AI Search, Generative Search,
+        LLM Discoverability, Entity SEO, Semantic SEO,
+        Answer-First Content, Structured Data,
+        Topical Authority
+      </p>
+
+      <p>
+        <strong>
+          Audience:
+        </strong>
+        SEO professionals, digital marketers, B2B marketers,
+        technology marketers, content strategists,
+        website owners, SaaS companies, IT services companies
+        and AI Search practitioners.
+      </p>
+
+      <p>
+        <strong>
+          Published:
+        </strong>
+
+        <time datetime="2026-10-03">
+          October 3, 2026
+        </time>
+      </p>
+
+      <p>
+        <strong>
+          Author:
+        </strong>
+        Balaji Rajaram
+      </p>
+
+    </section>
+
+
+  </div>
+
+</main>
+
+
+<footer>
+
+  <div class="container">
+
+    <p>
+
+      © 2026 Balaji Rajaram.
+      B2B Technology Marketing · SEO · AEO · GEO · AI Search
+      · LLM Discoverability.
+
+    </p>
+
+    <p>
+
+      <a href="https://balajirajaram.wikiseo.in/">
+        balajirajaram.wikiseo.in
+      </a>
+
+    </p>
+
+  </div>
+
+</footer>
+
+
+</body>
+</html>
