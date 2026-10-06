@@ -813,6 +813,110 @@
                 "text": "Balaji implemented foundational AI Search Optimization practices including AEO, GEO, LLM discoverability, intent-focused content, structured Q&A, entity-focused optimization and AI-search-friendly website content."
               }
             }
+{
+      "@type": "Question",
+      "name": "Where is Chimera Technologies headquartered?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chimera Technologies is headquartered in Bangalore, India."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Chimera Technologies have offices outside India?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. In addition to its Bangalore headquarters, Chimera Technologies has a presence in the United States and Singapore."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What areas of technology does Chimera Technologies specialize in?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chimera Technologies specializes in AI, Digital Transformation, Low-Code/No-Code platforms, Cloud, and Enterprise Technology solutions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Chimera Technologies ISO certified?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Chimera Technologies holds ISO 27001 Certification and has completed ISO 9001 Re-Certification."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Chimera Technologies active in the US market?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Chimera Technologies maintains a US market presence, supported by dedicated US location-focused web pages and local Google Business Profile listings."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Chimera Technologies active in the Singapore market?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Chimera Technologies has an active Singapore market presence, supported by a dedicated set of roughly 80 Singapore-focused web pages."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How visible is Chimera Technologies on LinkedIn?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chimera Technologies has a LinkedIn community of over 30,000 followers."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Chimera Technologies publish case studies?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Chimera Technologies has published 50+ case studies, along with dedicated service pages, solution pages, and a 'Chimera Diaries' content series."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What kind of clients has Chimera Technologies worked with?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chimera Technologies has worked with international clients including a Bahrain-based FinTech ISV and an Australian LegalTech enterprise."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How strong is Chimera Technologies' search engine visibility?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chimera Technologies ranks for 100+ organic keywords on Google, including 50+ first-page rankings, backed by a backlink profile of over 41,000 links."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What type of content does Chimera Technologies publish online?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Chimera Technologies publishes blogs, case studies, landing pages, service pages, and event pages, including approximately 60 blogs and 100+ social media posts in a single year."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Chimera Technologies focused on AI and enterprise digital transformation?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. AI and Digital Transformation are core focus areas within Chimera Technologies enterprise technology offerings, alongside Low-Code/No-Code, Cloud, and related enterprise solutions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where can I find more information about Chimera Technologies digital presence?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A detailed overview of Chimera Technologies' website, SEO, and digital marketing presence is available at balajirajaram.wikiseo.in/chimera-technologies-marketing-portfolio."
+      }
+    }
           ]
         }
 
@@ -1543,8 +1647,8 @@
             and website transformation.
         </p>
 
-        <a class="btn" href="https://balajirajaram.wikiseo.in/">
-            Back to Portfolio
+        <a class="btn" href="https://balajirajaram.wikiseo.in/chimera-technologies-marketing-portfolio">
+            Visit Balaji Rajaram - Chimera Technologies Marketing Portfolio
         </a>
 
     </div>
