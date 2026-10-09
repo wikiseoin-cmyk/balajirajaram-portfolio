@@ -1,54 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
   <url>
-    <loc>https://balajirajaram.wikiseo.in/</loc>
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+       <loc>https://balajirajaram.wikiseo.in/</loc>
+       <lastmod>2026-09-10T05:11:08+00:00</lastmod>
+       <priority>1.0000</priority>
   </url>
-          <url>
-    <loc>https://balajirajaram.wikiseo.in/chimera-technologies-marketing-portfolio</loc>
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+  <url>
+       <loc>https://balajirajaram.wikiseo.in/chimera-technologies-marketing-portfolio</loc>
+       <lastmod>2026-10-09T16:48:51+00:00</lastmod>
+       <priority>0.8000</priority>
   </url>
-        <url>
-    <loc>https://balajirajaram.wikiseo.in/chimera-technologies</loc>
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+  <url>
+       <loc>https://balajirajaram.wikiseo.in/chimera-technologies</loc>
+       <lastmod>2026-09-10T05:11:08+00:00</lastmod>
+       <priority>1.0000</priority>
   </url>
-        <url>
-    <loc>https://balajirajaram.wikiseo.in/seo-aeo-geo-trends</loc>
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+  <url>
+       <loc>https://balajirajaram.wikiseo.in/seo-aeo-geo-trends</loc>
+       <lastmod>2026-09-10T05:11:08+00:00</lastmod>
+       <priority>1.0000</priority>
   </url>
-        
-        <url>
-    <loc>https://balajirajaram.wikiseo.in/15-seo-trends-b2b-technology-marketers-2026</loc>
-    <lastmod>2026-10-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+  <url>
+       <loc>https://balajirajaram.wikiseo.in/15-seo-trends-b2b-technology-marketers-2026</loc>
+       <lastmod>2026-09-10T05:11:08+00:00</lastmod>
+       <priority>1.0000</priority>
   </url>
-        
-        <url>
-    <loc>https://balajirajaram.wikiseo.in/15-aeo-trends-answer-first-search-2026</loc>
-    <lastmod>2026-10-01</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+  <url>
+       <loc>https://balajirajaram.wikiseo.in/15-aeo-trends-answer-first-search-2026</loc>
+       <lastmod>2026-09-10T05:11:08+00:00</lastmod>
+       <priority>1.0000</priority>
   </url>
-         <url>
-    <loc>https://balajirajaram.wikiseo.in/15-geo-trends-generative-search-visibility-2026</loc>
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+  <url>
+       <loc>https://balajirajaram.wikiseo.in/15-geo-trends-generative-search-visibility-2026</loc>
+       <lastmod>2026-09-10T05:11:08+00:00</lastmod>
+       <priority>1.0000</priority>
   </url>
-                 <url>
-    <loc>https://balajirajaram.wikiseo.in/10-ai-search-optimization-principles-any-website</loc>
-    <lastmod>2026-10-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
+  <url>
+       <loc>https://balajirajaram.wikiseo.in/10-ai-search-optimization-principles-any-website</loc>
+       <lastmod>2026-09-10T05:11:08+00:00</lastmod>
+       <priority>1.0000</priority>
   </url>
 </urlset>
